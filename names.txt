@@ -1,0 +1,67 @@
+布莱恩·瑞德（Brian Reid）
+格林布拉特 Richard Greenblatt
+休伯特·德莱弗斯 Hubert Dreyfus
+比尔·高斯伯 Bill Gosper
+杰拉尔德·萨斯曼 Gerald Sussman
+道格·英格巴特 Doug Engelbart
+卡尔·米克尔松（Carl Mikkelson）
+盖·斯蒂尔（Guy Steele)
+史蒂芬·李维（Steven Levy）
+哈尔·埃布尔森（Hal Abelson）
+约瑟夫·魏岑鲍姆（Joseph Weizenbaum）
+约翰·麦卡锡（John McCarthy）
+马歇尔·柯克·麦库西克（Marshall Kirk McKusick）
+唐·霍普金斯（Don Hopkins）
+N. P. 纽奎斯特所 (N. P. Newquist)
+约翰·亨利（John Henry)
+李奇·莫林（Rich Morin）
+比尔·乔伊（Bill Joy）
+詹姆斯·高斯林（James Gosling）
+罗伯特·查瑟尔（Robert Chassell）
+埃文·列伊博维奇（Evan Leibovitch）
+艾瑞克·雷蒙德（Eric Raymond）
+克林顿（Clinton）
+比尔·乔伊（Bill Joy）
+马克·费雪（Mark Fischer）
+约翰·吉尔摩（John Gilmore）
+拉里·华尔（Larry Wall）
+哈尔·艾贝尔森 （Hal Abelson）
+乔安妮·科斯特洛（Joanne Costello）
+林纳斯·托瓦兹（Linus Torvalds）
+杰里·科恩（Jerry Cohen）
+基思·博斯蒂克(Keith Bostic)
+布鲁斯·佩伦斯(Bruce Perens)
+迈克尔·蒂曼(Michale Tiemann)
+杰瑞米·埃里森(Jeremy Allison)
+安德鲁·塔嫩鲍姆(Andrew Tanenbaum)
+罗伯特·查瑟尔(Robert Chassell)
+罗伯特·杨(Robert Young)
+伊恩·默多克(Ian Murdock)
+彼得·萨卢斯(Peter Salus)
+埃里克·斯蒂芬·雷蒙德(Eric Steven Raymond) 埃里克·雷蒙德
+克里斯汀·彼德森（Christine Peterson）
+伊本·莫格林（Eben Moglen）
+瑟古德·马歇尔(Thurgood Marshall)
+艾利斯·哈利(Alex Haley)
+特蕾西·帕蒂森(Tracy Pattison)
+泰德·尼尔森(Ted Nelson) 西奥多·霍尔姆·尼尔森
+
+Stallman (1979) 参见理查德·斯托曼，人工智能实验室备忘录（1979年），《EMACS：可扩展，可定制的全屏编辑器》。本书的引文来自：http://www.gnu.org/software/emacs/emacs-paper.html
+Stallman (1986) 参见理查德在瑞典皇家技术研究所的演讲（1986年10月30日）：http://www.gnu.org/philosophy/stallman-kth.html
+Hacker 参见史蒂芬·李维（Steven Levy），《黑客》（1984年，美国企鹅出版社），第417页。
+ N. P. 纽奎斯特所著的《大脑创作家》（The Brain Maker）一书
+
+
+
+
+
+
+
+
+
+
+ch09
+
+Hal Abelson 哈尔·艾贝尔森
+Mike Fischer 麦克·费雪
+Joanne Costello 乔安妮·科斯特洛
