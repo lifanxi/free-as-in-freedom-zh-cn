@@ -54,14 +54,38 @@ Hacker 参见史蒂芬·李维（Steven Levy），《黑客》（1984年，美�
 
 
 
+ch01
+Richard M. Stallman 理查德·M·斯托曼
+Brian Reid 布莱恩·瑞德
+Robert Sproull 罗伯特·斯布鲁
+Howard Cannon 霍华德·坎农
 
+ch02
+Craig Mundie 克雷格·蒙迪
+Linus Torvalds 林纳斯·托瓦兹
+Shubha Ghos 
+Mike Uretsky 麦克·乌列茨基
+Edmond Schonberg 埃德蒙·舍恩伯格
+Eben Moglen  伊本·莫格林
 
+ch03
+Alice Lippman 爱丽丝·李普曼
+Martin Gardner 马丁·加德纳
+Maurice Lippman 莫里斯·李普曼
+Daniel Stallman 丹尼尔·斯托曼
+Johnny Unitas 约翰尼·尤尼塔斯
+Dan Chess 丹·柴斯
+Seth Breidbart 赛思·布莱德巴特
+Steve Silberman史蒂夫·西尔贝曼
 
+ch04
 
-
+Michael Gross 迈克尔·格劳斯
 
 ch09
 
 Hal Abelson 哈尔·艾贝尔森
 Mike Fischer 麦克·费雪
 Joanne Costello 乔安妮·科斯特洛
+Mark Fischer 马克·费雪
+John Gilmore 约翰·吉尔摩
