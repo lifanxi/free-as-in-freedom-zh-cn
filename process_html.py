@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-soup = BeautifulSoup(open('faif-2.0.html','r'))
+soup = BeautifulSoup(open('faif-1.0.html','r'))
 
 for i in soup.find_all('span'):
     if i['class'][0].find('unisong') == 0 or i['class'][0].find('unisong') == 0:
@@ -11,7 +11,7 @@ ccc=ccc.replace('\n    ','')
 ccc=ccc.replace('\n   ','')
 
 import codecs
-fff=codecs.open('faif-2.0_output.html','w','utf-8')
+fff=codecs.open('faif-1.0_output.html','w','utf-8')
 fff.write(ccc)
 fff.close()
 # fff=codecs.open('bbb.html','w','utf-8')

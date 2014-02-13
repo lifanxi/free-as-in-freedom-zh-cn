@@ -1,7 +1,7 @@
 all: clean
-	htlatex faif-2.0.tex
+	htlatex faif-1.0.tex
 	python2.7 process_html.py
-	pdflatex faif-2.0.tex
+	pdflatex faif-1.0.tex
 clean:
 	rm -rf *.html
 	rm -rf *.log
