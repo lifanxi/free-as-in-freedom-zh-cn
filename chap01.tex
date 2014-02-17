@@ -65,7 +65,14 @@ Unfortunately, Stallman's skills as a computer programmer did not extend to the 
 \fi
 
 \ifdefined\eng
-How long ago had it been that the staff members at the AI Lab had welcomed the new printer with open arms? Stallman wondered. The machine had been a donation from the Xerox Corporation. A cutting edge prototype, it was a modified version of a fast Xerox photocopier. Only instead of making copies, it relied on software data piped in over a computer network to turn that data into professional-looking documents. Created by engineers at the world-famous Xerox Palo Alto Research Facility, it was, quite simply, an early taste of the desktop-printing revolution that would seize the rest of the computing industry by the end of the decade.
+How long ago had it been that the staff members at the AI Lab had welcomed the new printer with open arms? Stallman wondered. The machine had been a donation from the Xerox Corporation. A cutting edge prototype, it was a modified version of 
+\ifdefined\vone
+the popular
+\fi
+\ifdefined\vtwo
+a fast
+\fi
+Xerox photocopier. Only instead of making copies, it relied on software data piped in over a computer network to turn that data into professional-looking documents. Created by engineers at the world-famous Xerox Palo Alto Research Facility, it was, quite simply, an early taste of the desktop-printing revolution that would seize the rest of the computing industry by the end of the decade.
 \fi
 
 \ifdefined\chs
@@ -73,7 +80,8 @@ How long ago had it been that the staff members at the AI Lab had welcomed the n
 \fi
 
 \ifdefined\eng
-Driven by an instinctual urge to play with the best new equipment, programmers at the AI Lab promptly integrated the new machine into the lab's sophisticated computing infrastructure. The results had been immediately pleasing. Unlike the lab's old printer, the new Xerox machine was fast. Pages came flying out at a rate of one per second, turning a 20-minute print job into a 2-minute print job. The new machine was also more precise. Circles came out looking like circles, not ovals. Straight lines came out looking like straight lines, not low-amplitude sine waves.
+%% v1v2
+Driven by an instinctual urge to play with the best new equipment, programmers at the AI Lab promptly integrated the new machine into the lab's sophisticated computing infrastructure. The results had been immediately pleasing. Unlike the lab's old laser printer, the new Xerox machine was fast. Pages came flying out at a rate of one per second, turning a 20-minute print job into a 2-minute print job. The new machine was also more precise. Circles came out looking like circles, not ovals. Straight lines came out looking like straight lines, not low-amplitude sine waves.
 \fi
 
 \ifdefined\chs
@@ -89,7 +97,8 @@ It was, for all intents and purposes, a gift too good to refuse.
 \fi
 
 \ifdefined\eng
-Once the machine was in use, its flaws began to surface. Chief among the drawbacks was the machine's susceptibility to paper jams. Engineering-minded programmers quickly understood the reason behind the flaw. As a photocopier, the machine generally required the direct oversight of a human operator. Figuring that these human operators would always be on hand to fix a paper jam, if it occurred, Xerox engineers had devoted their time and energies to eliminating other pesky problems. In engineering terms, user diligence was built into the system.
+%% v1v2
+It wasn't until a few weeks after its arrival that the machine's inherent flaws began to surface. Chief among the drawbacks was the machine's susceptibility to paper jams. Engineering-minded programmers quickly understood the reason behind the flaw. As a photocopier, the machine generally required the direct oversight of a human operator. Figuring that these human operators would always be on hand to fix a paper jam, if it occurred, Xerox engineers had devoted their time and energies to eliminating other pesky problems. In engineering terms, user diligence was built into the system.
 \fi
 
 \ifdefined\chs
@@ -97,7 +106,8 @@ Once the machine was in use, its flaws began to surface. Chief among the drawbac
 \fi
 
 \ifdefined\eng
-In modifying the machine for printer use, Xerox engineers had changed the user-machine relationship in a subtle but profound way. Instead of making the machine subservient to an individual human operator, they made it subservient to an entire networked population of human operators. Instead of standing directly over the machine, a human user on one end of the network sent his print command through an extended bucket brigade of machines, expecting the desired content to arrive at the targeted destination and in proper form. It wasn't until he finally went to check up on the final output that he realized how little of it had really been printed.
+%% v1v2
+In modifying the machine for printer use, Xerox engineers had changed the user-machine relationship in a subtle but profound way. Instead of making the machine subservient to an individual human operator, they made it subservient to an entire networked population of human operators. Instead of standing directly over the machine, a human user on one end of the network sent his print command through an extended bucket-brigade of machines, expecting the desired content to arrive at the targeted destination and in proper form. It wasn't until he finally went to check up on the final output that he realized how little of the desired content had made it through.
 \fi
 
 \ifdefined\chs
@@ -105,7 +115,8 @@ In modifying the machine for printer use, Xerox engineers had changed the user-m
 \fi
 
 \ifdefined\eng
-Stallman was hardly the only AI Lab denizen to notice the problem, but he also thought of a remedy. Years before, for the lab's previous printer, Stallman had solved a similar problem by modifying the software program that regulated the printer, on a small PDP-11 machine, as well as the Incompatible Timesharing System that ran on the main PDP-10 computer. Stallman couldn't eliminate paper jams, but he could insert software code that made the PDP-11 check the printer periodically, and report jams back to the PDP-10. Stallman also inserted code on the PDP-10 to notify every user with a waiting print job that the printer was jammed. The notice was simple, something along the lines of ``The printer is jammed, please fix it,'' and because it went out to the people with the most pressing need to fix the problem, chances were that one of them would fix it forthwith.
+%% v1v2
+Stallman himself had been of the first to identify the problem and the first to suggest a remedy. Years before, when the lab was still using its old printer, Stallman had solved a similar problem by opening up the software program that regulated the printer on the lab's PDP-11 machine. Stallman couldn't eliminate paper jams, but he could insert a software command that ordered the PDP-11 to check the printer periodically and report back to the PDP-10, the lab's central computer. To ensure that one user's negligence didn't bog down an entire line of print jobs, Stallman also inserted a software command that instructed the PDP-10 to notify every user with a waiting print job that the printer was jammed. The notice was simple, something along the lines of "The printer is jammed, please fix it," and because it went out to the people with the most pressing need to fix the problem, chances were higher that the problem got fixed in due time.
 \fi
 
 \ifdefined\chs
@@ -129,15 +140,17 @@ As fixes go, Stallman's was oblique but elegant. It didn't fix the mechanical si
 \fi
 
 \ifdefined\eng
-Such clever fixes were a trademark of the AI Lab and its indigenous population of programmers. Indeed, the best programmers at the AI Lab disdained the term programmer, preferring the more slangy occupational title of hacker instead. The job title covered a host of activities -- everything from creative mirth making to the improvement of existing software and computer systems. Implicit within the title, however, was the old-fashioned notion of Yankee ingenuity. For a hacker, writing a software program that worked was only the beginning. A hacker would try to display his cleverness (and impress other hackers) by tackling an additional challenge: to make the program particularly fast, small, powerful, elegant, or somehow impressive in a clever way.\endnote{For more on the term ``hacker,'' see \nameref{Appendix A}.}
+%% v1v2
+Such clever fixes were a trademark of the AI Lab and its indigenous population of programmers. Indeed, the best programmers at the AI Lab disdained the term programmer, preferring the more slangy occupational title of hacker instead. The job title covered a host of activities-everything from creative mirth making to the improvement of existing software and computer systems. Implicit within the title, however, was the old-fashioned notion of Yankee ingenuity. To be a hacker, one had to accept the philosophy that writing a software program was only the beginning. Improving a program was the true test of a hacker's skills.\endnote{For more on the term ``hacker,'' see \nameref{Appendix B}.}
 \fi
 
 \ifdefined\chs
-类似的巧法子是人工智能实验室的一大特色。尤其在其中的资深程序员之间，屡见不鲜。实际上，那些天才的程序员，不屑于用“程序员”这词。他们更喜欢用圈子里的行话，用“黑客”这个词。这词儿涵盖了不少内容：从抖机灵、甩包袱，到改进现有软件，优化计算机系统。而更深之处，则蕴含着旧时美国移民的智慧。对于黑客来说，有这么一条铁律：从头开发个软件只是小儿科；要想在别人面前展现自己的聪明才智（并让别人对自己留下印象），就得做点更有意思的事：改进一个程序让它体积更小、跑得更快、功能更强，代码更优雅，这才是真本事。\endnote{参考\nameref{Appendix A}，深入了解“黑客”这个词的内在含义。}
+类似的巧法子是人工智能实验室的一大特色。尤其在其中的资深程序员之间，屡见不鲜。实际上，那些天才的程序员，不屑于用“程序员”这词。他们更喜欢用圈子里的行话，用“黑客”这个词。这词儿涵盖了不少内容：从抖机灵、甩包袱，到改进现有软件，优化计算机系统。而更深之处，则蕴含着旧时美国移民的智慧。对于黑客来说，有这么一条铁律：从头开发个软件只是小儿科；要想在别人面前展现自己的聪明才智（并让别人对自己留下印象），就得做点更有意思的事：改进一个程序让它体积更小、跑得更快、功能更强，代码更优雅，这才是真本事。\endnote{参考\nameref{Appendix B}，深入了解“黑客”这个词的内在含义。}
 \fi
 
 \ifdefined\eng
-Companies like Xerox made it a policy to donate their products (and software) to places where hackers typically congregated. If hackers used these products, they might go to work for the company later on.  In the 60s and early 70s, they also sometimes developed programs that were useful for the manufacturer to distribute to other customers.
+%% v1v2
+Such a philosophy was a major reason why companies like Xerox made it a policy to donate their machines and software programs to places where hackers typically congregated. If hackers improved the software, companies could borrow back the improvements, incorporating them into update versions for the commercial marketplace. In corporate terms, hackers were a leveragable community asset, an auxiliary research-and-development division available at minimal cost.
 \fi
 
 \ifdefined\chs
@@ -145,7 +158,8 @@ Companies like Xerox made it a policy to donate their products (and software) to
 \fi
 
 \ifdefined\eng
-When Stallman noticed the jamming tendency in the Xerox laser printer, he thought of applying the old fix or ``hack'' to this printer. In the course of looking up the Xerox laser-printer software, however, Stallman made a troubling discovery. The printer didn't have any software, at least nothing Stallman or a fellow programmer could read. Until then, most companies had made it a form of courtesy to publish source-code files--readable text files that documented the individual software commands that told a machine what to do. Xerox, in this instance, had provided software files only in compiled, or binary, form. If programmers looked at the files, all they would see was an endless stream of ones and zeroes -- gibberish.
+%% v1v2
+It was because of this give-and-take philosophy that when Stallman spotted the print-jam defect in the Xerox laser printer, he didn't panic. He simply looked for a way to update the old fix or " hack" for the new system. In the course of looking up the Xerox laser-printer software, however, Stallman made a troubling discovery. The printer didn't have any software, at least nothing Stallman or a fellow programmer could read. Until then, most companies had made it a form of courtesy to publish source-code files-readable text files that documented the individual software commands that told a machine what to do. Xerox, in this instance, had provided software files in precompiled, or binary, form. Programmers were free to open the files up if they wanted to, but unless they were an expert in deciphering an endless stream of ones and zeroes, the resulting text was pure gibberish.
 \fi
 
 \ifdefined\chs
@@ -153,23 +167,41 @@ When Stallman noticed the jamming tendency in the Xerox laser printer, he though
 \fi
 
 \ifdefined\eng
-There are programs, called ``disassemblers,'' to convert the ones and zeroes into low-level machine instructions, but figuring out what those instructions actually ``do'' is a long and hard task, known as ``reverse engineering.''  To reverse engineer this program could have taken more time than five years' worth of jammed printouts.  Stallman wasn't desperate enough for that, so he put the problem aside.
-\fi
-
-\ifdefined\chs
-有一种叫作”反汇编器”的程序，可以把这些看不懂的零和一转换成机器底层指令，但是要进一步了解这些指令实际在“做”的事情则是一件费时费力的工作，这样的工作被称作“反向工程”。要想把打印机的控制程序进行反向工程，也许会花去超过五年的时间。卡纸的问题还没有严重到让斯托曼愿意花这么多时间去解决，所以他把这件事放到了一边。
+%% v1
+Although Stallman knew plenty about computers, he was not an expert in translating binary files. As a hacker, however, he had other resources at his disposal. The notion of information sharing was so central to the hacker culture that Stallman knew it was only a matter of time before some hacker in some university lab or corporate computer room proffered a version of the laser-printer source code with the desired source-code files.
 \fi
 
 \ifdefined\eng
-Xerox's unfriendly policy contrasted blatantly with the usual practices of the hacker community.  For instance, to develop the program for the PDP-11 that ran the old printer, and the program for another PDP-11 that handled display terminals, the AI Lab needed a cross-assembler program to build PDP-11 programs on the PDP-10 main computer. The lab's hackers could have written one, but Stallman, a Harvard student, found such a program at Harvard's computer lab. That program was written to run on the same kind of computer, the PDP-10, albeit with a different operating system. Stallman never knew who had written the program, since the source code did not say.  But he brought a copy back to the AI Lab. He then altered the source code to make it run on the AI Lab's Incompatible Timesharing System (ITS). With no muss and little fuss, the AI Lab got the program it needed for its software infrastructure. Stallman even added a few features not found in the original version, making the program more powerful. ``We wound up using it for several years,'' Stallman says.
-\fi
-
-\ifdefined\chs
-施乐公司看上去不太友好的软件条款与黑客社区所习惯的氛围格格不入。打个比方，如果想为一台老式的打印机开发一个在PDP-11上运行的控制程序，或为另一台PDP-11开始一个处理显示终端的程序，人工智能实验室的黑客们需要在PDP-10主机上运行一个交叉汇编的程序，才能创建出他们需要的程序。他们可以自己从头开发一个这样的交叉汇编程序，但是上哈佛大学上学的斯托曼，在哈佛的计算机实验室中找到了这样一个程序。这个程序都可以在PDP-10这种型号的计算机上运行，即使两台机器上运行的操作系统不同也没有关系。斯托曼并不需要知道这份代码是谁写的，因为源代码中并没有标明。但是他可以把这份代码带到人工智能实验室，通过修改其中的一部分代码，这个程序就可以在人工智能实验室的“不兼容分时系统（ITS）”上运行了。没花多大劲，人工智能实验室就得到了一个可以用于充实他们的软件架构的程序。斯托曼甚至还在程序中加入了一些原来没有的新功能，使程序变得更加强大了。“这个程序我们一直用了很多年。”斯托曼说。
+%% v1
+After the first few printer jams, Stallman comforted himself with the memory of a similar situation years before. The lab had needed a cross-network program to help the PDP-11 work more efficiently with the PDP-10. The lab's hackers were more than up to the task, but Stallman, a Harvard alumnus, recalled a similar program written by programmers at the Harvard computer-science department. The Harvard computer lab used the same model computer, the PDP-10, albeit with a different operating system. The Harvard computer lab also had a policy requiring that all programs installed on the PDP-10 had to come with published source-code files.
 \fi
 
 \ifdefined\eng
-From the perspective of a 1970s-era programmer, the transaction was the software equivalent of a neighbor stopping by to borrow a power tool or a cup of sugar from a neighbor. The only difference was that in borrowing a copy of the software for the AI Lab, Stallman had done nothing to deprive anyone else of the use of the program. If anything, other hackers gained in the process, because Stallman had introduced additional features that other hackers were welcome to borrow back.  For instance, Stallman recalls a programmer at the private engineering firm, Bolt, Beranek \& Newman, borrowing the program. He made it run on Twenex and added a few additional features, which Stallman eventually reintegrated into the AI Lab's own source-code archive.  The two programmers decided to maintain a common version together, which had the code to run either on ITS or on Twenex at the user's choice.
+%% v1
+Taking advantage of his access to the Harvard computer lab, Stallman dropped in, made a copy of the cross-network source code, and brought it back to the AI Lab. He then rewrote the source code to make it more suitable for the AI Lab's operating system. With no muss and little fuss, the AI Lab shored up a major gap in its software infrastructure. Stallman even added a few features not found in the original Harvard program, making the program even more useful. "We wound up using it for several years," Stallman says.
+\fi
+
+
+
+%% \ifdefined\eng
+%% There are programs, called ``disassemblers,'' to convert the ones and zeroes into low-level machine instructions, but figuring out what those instructions actually ``do'' is a long and hard task, known as ``reverse engineering.''  To reverse engineer this program could have taken more time than five years' worth of jammed printouts.  Stallman wasn't desperate enough for that, so he put the problem aside.
+%% \fi
+
+%% \ifdefined\chs
+%% 有一种叫作”反汇编器”的程序，可以把这些看不懂的零和一转换成机器底层指令，但是要进一步了解这些指令实际在“做”的事情则是一件费时费力的工作，这样的工作被称作“反向工程”。要想把打印机的控制程序进行反向工程，也许会花去超过五年的时间。卡纸的问题还没有严重到让斯托曼愿意花这么多时间去解决，所以他把这件事放到了一边。
+%% \fi
+
+%% \ifdefined\eng
+%% Xerox's unfriendly policy contrasted blatantly with the usual practices of the hacker community.  For instance, to develop the program for the PDP-11 that ran the old printer, and the program for another PDP-11 that handled display terminals, the AI Lab needed a cross-assembler program to build PDP-11 programs on the PDP-10 main computer. The lab's hackers could have written one, but Stallman, a Harvard student, found such a program at Harvard's computer lab. That program was written to run on the same kind of computer, the PDP-10, albeit with a different operating system. Stallman never knew who had written the program, since the source code did not say.  But he brought a copy back to the AI Lab. He then altered the source code to make it run on the AI Lab's Incompatible Timesharing System (ITS). With no muss and little fuss, the AI Lab got the program it needed for its software infrastructure. Stallman even added a few features not found in the original version, making the program more powerful. ``We wound up using it for several years,'' Stallman says.
+%% \fi
+
+%% \ifdefined\chs
+%% 施乐公司看上去不太友好的软件条款与黑客社区所习惯的氛围格格不入。打个比方，如果想为一台老式的打印机开发一个在PDP-11上运行的控制程序，或为另一台PDP-11开始一个处理显示终端的程序，人工智能实验室的黑客们需要在PDP-10主机上运行一个交叉汇编的程序，才能创建出他们需要的程序。他们可以自己从头开发一个这样的交叉汇编程序，但是上哈佛大学上学的斯托曼，在哈佛的计算机实验室中找到了这样一个程序。这个程序都可以在PDP-10这种型号的计算机上运行，即使两台机器上运行的操作系统不同也没有关系。斯托曼并不需要知道这份代码是谁写的，因为源代码中并没有标明。但是他可以把这份代码带到人工智能实验室，通过修改其中的一部分代码，这个程序就可以在人工智能实验室的“不兼容分时系统（ITS）”上运行了。没花多大劲，人工智能实验室就得到了一个可以用于充实他们的软件架构的程序。斯托曼甚至还在程序中加入了一些原来没有的新功能，使程序变得更加强大了。“这个程序我们一直用了很多年。”斯托曼说。
+%% \fi
+
+\ifdefined\eng
+%% v1v2
+From the perspective of a 1970s-era programmer, the transaction was the software equivalent of a neighbor stopping by to borrow a power tool or a cup of sugar from a neighbor. The only difference was that in borrowing a copy of the software for the AI Lab, Stallman had done nothing to deprive Harvard hackers the use of their original program. If anything, Harvard hackers gained in the process, because Stallman had introduced his own additional features to the program, features that hackers at Harvard were perfectly free to borrow in return. Although nobody at Harvard ever came over to borrow the program back, Stallman does recall a programmer at the private engineering firm, Bolt, Beranek \& Newman, borrowing the program and adding a few additional features, which Stallman eventually reintegrated into the AI Lab's own source-code archive.
 \fi
 
 \ifdefined\chs
@@ -177,7 +209,8 @@ From the perspective of a 1970s-era programmer, the transaction was the software
 \fi
 
 \ifdefined\eng
-``A program would develop the way a city develops,'' says Stallman, recalling the software infrastructure of the AI Lab. ``Parts would get replaced and rebuilt. New things would get added on. But you could always look at a certain part and say, `Hmm, by the style, I see this part was written back in the early 60s and this part was written in the mid-1970s.'\hspace{0.01in}''
+%% v1v2
+``A program would develop the way a city develops," says Stallman, recalling the software infrastructure of the AI Lab. ''Parts would get replaced and rebuilt. New things would get added on. But you could always look at a certain part and say, `Hmm, by the style, I see this part was written back in the early 60s and this part was written in the mid-1970s.'\hspace{0.01in}"
 \fi
 
 \ifdefined\chs
@@ -185,7 +218,8 @@ From the perspective of a 1970s-era programmer, the transaction was the software
 \fi
 
 \ifdefined\eng
-Through this simple system of intellectual accretion, hackers at the AI Lab and other places built up robust creations. Not every programmer participating in this culture described himself as a hacker, but most shared the sentiments of Richard M. Stallman. If a program or software fix was good enough to solve your problems, it was good enough to solve somebody else's problems. Why not share it out of a simple desire for good karma?
+%% v1v2
+Through this simple system of intellectual accretion, hackers at the AI Lab and other places built up robust creations. On the west coast, computer scientists at UC Berkeley, working in cooperation with a few low-level engineers at AT\&T, had built up an entire operating system using this system. Dubbed Unix, a play on an older, more academically respectable operating system called Multics, the software system was available to any programmer willing to pay for the cost of copying the program onto a new magnetic tape and shipping it. Not every programmer participating in this culture described himself as a hacker, but most shared the sentiments of Richard M. Stallman. If a program or software fix was good enough to solve your problems, it was good enough to solve somebody else's problems. Why not share it out of a simple desire for good karma?
 \fi
 
 \ifdefined\chs
@@ -193,64 +227,78 @@ Through this simple system of intellectual accretion, hackers at the AI Lab and 
 \fi
 
 \ifdefined\eng
-This system of cooperation was being undermined by commercial secrecy and greed, leading to peculiar combinations of secrecy and cooperation.  For instance, computer scientists at UC Berkeley had built up a powerful operating system called BSD, based on the Unix system they had obtained from AT\&T.  Berkeley made BSD available for the cost of copying a tape, but would only give these tapes to schools that could present a \$50,000 source license obtained from AT\&T.  The Berkeley hackers continued to share as much as AT\&T let them, but they had not perceived a conflict between the two practices.
-\fi
-
-\ifdefined\chs
-这种合作的精神不断的被商业秘密限制和贪婪之心所侵蚀，变成了一种商业秘密和合作精神的古怪搭配。加州大学伯克利分校的计算机科学家们基于他们从AT\&T得到的Unix系统开发了一个名为BSD的操作系统。伯克利向那些已经向AT\&T支付了50000美元软件许可证费用的学院提供BSD系统，仅仅只收取复制磁带的成本费。伯克利的黑客们还是尽可能的发扬分享合作的精神，但只能在AT\&T所允许的范围内，并且他们还没有意识这两种不同的模式之间所存在的巨大冲突。
+%% v1
+When the desired files failed to surface, however, Stallman began to grow suspicious. The year before, Stallman had experienced a blow up with a doctoral student at Carnegie Mellon University. The student, Brian Reid, was the author of a useful text-formatting program dubbed Scribe. One of the first programs that gave a user the power to define fonts and type styles when sending a document over a computer network, the program was an early harbinger of HTML, the lingua franca of the World Wide Web. In 1979, Reid made the decision to sell Scribe to a Pittsburgh-area software company called Unilogic. His graduate-student career ending, Reid says he simply was looking for a way to unload the program on a set of developers that would take pains to keep it from slipping into the public domain. To sweeten the deal, Reid also agreed to insert a set of time-dependent functions- "time bombs" in software-programmer parlance-that deactivated freely copied versions of the program after a 90-day expiration date. To avoid deactivation, users paid the software company, which then issued a code that defused the internal time-bomb feature.
 \fi
 
 \ifdefined\eng
-Likewise, Stallman was annoyed that Xerox had not provided the source-code files, but not yet angry.  He never thought of asking Xerox for a copy. ``They had already given us the laser printer,'' Stallman says. ``I could not say they owed us something more.  Besides, I took for granted that the absence of source code reflected an intentional decision, and that asking them to change it would be futile.''
+%% v1
+For Reid, the deal was a win-win. Scribe didn't fall into the public domain, and Unilogic recouped on its investment. For Stallman, it was a betrayal of the programmer ethos, pure and simple. Instead of honoring the notion of share-and-share alike, Reid had inserted a way for companies to compel programmers to pay for information access.
+As the weeks passed and his attempts to track down Xerox laser-printer source code hit a brick wall, Stallman began to sense a similar money-for-code scenario at work. Before Stallman could do or say anything about it, however, good news finally trickled in via the programmer grapevine. Word had it that a scientist at the computer-science department at Carnegie Mellon University had just departed a job at the Xerox Palo Alto Research Center. Not only had the scientist worked on the laser printer in question, but according to rumor, he was still working on it as part of his research duties at Carnegie Mellon.
+Casting aside his initial suspicion, Stallman made a firm resolution to seek out the person in question during his next visit to the Carnegie Mellon campus.
+He didn't have to wait long. Carnegie Mellon also had a lab specializing in artificial-intelligence research, and within a few months, Stallman had a business-related reason to visit the Carnegie Mellon campus. During that visit, he made sure to stop by the computer-science department. Department employees directed him to the office of the faculty member leading the Xerox project. When Stallman reached the office, he found the professor working there.
 \fi
 
-\ifdefined\chs
-施乐公司不分享源代码的行为虽然让斯托曼感到烦恼，不过倒也没激怒到他。斯托曼在找源代码的过程中，甚至都没想过去联系施乐公司：“人家都送咱打印机了，何必还非得兴师动众地直接管他们要代码呢？再说了，我敢肯定他们不发布源代码是有一种有意的行为，非要找他们要代码也是徒劳的。”
-\fi
+%% \ifdefined\eng
+%% This system of cooperation was being undermined by commercial secrecy and greed, leading to peculiar combinations of secrecy and cooperation.  For instance, computer scientists at UC Berkeley had built up a powerful operating system called BSD, based on the Unix system they had obtained from AT\&T.  Berkeley made BSD available for the cost of copying a tape, but would only give these tapes to schools that could present a \$50,000 source license obtained from AT\&T.  The Berkeley hackers continued to share as much as AT\&T let them, but they had not perceived a conflict between the two practices.
+%% \fi
+
+%% \ifdefined\chs
+%% 这种合作的精神不断的被商业秘密限制和贪婪之心所侵蚀，变成了一种商业秘密和合作精神的古怪搭配。加州大学伯克利分校的计算机科学家们基于他们从AT\&T得到的Unix系统开发了一个名为BSD的操作系统。伯克利向那些已经向AT\&T支付了50000美元软件许可证费用的学院提供BSD系统，仅仅只收取复制磁带的成本费。伯克利的黑客们还是尽可能的发扬分享合作的精神，但只能在AT\&T所允许的范围内，并且他们还没有意识这两种不同的模式之间所存在的巨大冲突。
+%% \fi
+
+%% \ifdefined\eng
+%% Likewise, Stallman was annoyed that Xerox had not provided the source-code files, but not yet angry.  He never thought of asking Xerox for a copy. ``They had already given us the laser printer,'' Stallman says. ``I could not say they owed us something more.  Besides, I took for granted that the absence of source code reflected an intentional decision, and that asking them to change it would be futile.''
+%% \fi
+
+%% \ifdefined\chs
+%% 施乐公司不分享源代码的行为虽然让斯托曼感到烦恼，不过倒也没激怒到他。斯托曼在找源代码的过程中，甚至都没想过去联系施乐公司：“人家都送咱打印机了，何必还非得兴师动众地直接管他们要代码呢？再说了，我敢肯定他们不发布源代码是有一种有意的行为，非要找他们要代码也是徒劳的。”
+%% \fi
+
+%% \ifdefined\eng
+%% Good news eventually arrived: word had it that a scientist at the computer-science department at Carnegie Mellon University had a copy of the laser printer source code.
+%% \fi
+
+%% \ifdefined\chs
+%% 好消息最终还是来了：一名卡耐基梅隆大学计算机科学系的教授手头有一份这台激光打印机的源代码。
+%% \fi
+
+%% \ifdefined\eng
+%% The association with Carnegie Mellon did not augur well. In 1979, Brian Reid, a doctoral student there, had shocked the community by refusing to share his text-formatting program, dubbed Scribe.  This text formatter was the first to have mark-up commands oriented towards the desired semantics (such as ``emphasize this word'' or ``this paragraph is a quotation'') rather than low-level formatting details (``put this word in italics'' or ``narrow the margins for this paragraph''). Instead Reid sold Scribe to a Pittsburgh-area software company called Unilogic. His graduate-student career ending, Reid says he simply was looking for a way to unload the program on a set of developers that would take pains to keep it from slipping into the public domain.  (Why one would consider such an outcome particularly undesirable is not clear.) To sweeten the deal, Reid also agreed to insert a set of time-dependent functions -- ``time bombs'' in software-programmer parlance -- that deactivated freely copied versions of the program after a 90-day expiration date. To avoid deactivation, users paid the software company, which then issued a code that defused the internal time-bomb anti-feature.
+%% \fi
+
+%% \ifdefined\chs
+%% 斯托曼对卡耐基梅隆大学并没有什么好印象。1979年，一位在卡耐基梅隆大学的计算机博士研究生，名叫布莱恩·瑞德（Brian Reid）。他开发了一个很不错的文本排版软件，名叫Scribe。但是他却拒绝公开这个软件的代码，震惊了整个开发社区。这个文本排版软件是世界上第一个可以通过标记来指定特定语意（比如“强调这个单词”或“这是一段引文”）的排版软件，而在它之前，一般的排版软件都是通过低级的排版命令（比如“把这个词改为斜体“或”缩小这一段的页边距“）来表达类似的需求。瑞德决定把Scribe出售给一家匹兹堡名叫Unilogic的公司。他当时刚好博士毕业，正打算把开发Scribe的任务转手给别人，免得它流落到公共领域（Public Domain）里。（为什么他会做出这样的决定，迄今为止还令人费解。）为了让这笔交易更具吸引力，瑞德在Scribe中动了点小手脚：他在里面放了个“定时炸弹”，让用户有90天的免费试用期，90天一过，如果用户不交费，则不能再使用这个软件。
+%% \fi
+
+%% \ifdefined\eng
+%% For Stallman, this was a betrayal of the programmer ethos, pure and simple. Instead of honoring the notion of share-and-share alike, Reid had inserted a way for companies to compel programmers to pay for information access.  But he didn't think deeply about the question, since he didn't use Scribe much.
+%% \fi
+
+%% \ifdefined\chs
+%% 在斯托曼看来，这样的做法背叛了程序员应有单纯、简单的精神气质。瑞德的做法不但没有弘扬分享再传播的精神，而且竟然还助纣为虐，开辟了一条让软件公司强迫程序员为信息付费的新途径。不过斯托曼也没有太在意这个问题，因为他本人并不太使用Scribe这个软件。
+%% \fi
+
+%% \ifdefined\eng
+%% Unilogic gave the AI Lab a gratis copy to use, but did not remove or mention the time bomb.  It worked, for a while; then one day a user reported that Scribe had stopped working.  System hacker Howard Cannon spent hours debugging the binary until he found the time-bomb and patched it out.  Cannon was incensed, and wasn't shy about telling the other hackers how mad he was that Unilogic had wasted his time with an intentional bug.
+%% \fi
+
+%% \ifdefined\chs
+%% Unilogic提供了一个免费的版本给人工智能实验室使用，但是这个版本中仍然保留了那个“定时炸弹”。这个软件在实验室中正常使用了一段时间，但是有一天，有用户发现它不能正常工作了。一位名叫霍华德·坎农（Howard Cannon）的系统工程师花了几个小时调试了这个软件，最终发现了隐藏在软件内部的“定时炸弹”，他改动了一些代码，把它绕了过去。坎农对此非常愤慨，遇到人就抱怨说Unilogic浪费了他好几个小时的时间去解决一个故意隐藏在软件中的问题。
+
+%% \fi
+
+%% \ifdefined\eng
+%% Stallman had a Lab-related reason, a few months later, to visit the Carnegie Mellon campus. During that visit, he made a point of looking for the person reported to have the printer software source code.  By good fortune, the man was  in his office.
+%% \fi
+
+%% \ifdefined\chs
+%% 几个月后，斯托曼因为工作原因，需要去卡耐基梅隆大学出差访问。访问过程中，他在计算机系找到了那位据说拥有激光打印机软件代码的教授。运气不错，那天他还刚好就在办公室。
+%% \fi
 
 \ifdefined\eng
-Good news eventually arrived: word had it that a scientist at the computer-science department at Carnegie Mellon University had a copy of the laser printer source code.
-\fi
-
-\ifdefined\chs
-好消息最终还是来了：一名卡耐基梅隆大学计算机科学系的教授手头有一份这台激光打印机的源代码。
-\fi
-
-\ifdefined\eng
-The association with Carnegie Mellon did not augur well. In 1979, Brian Reid, a doctoral student there, had shocked the community by refusing to share his text-formatting program, dubbed Scribe.  This text formatter was the first to have mark-up commands oriented towards the desired semantics (such as ``emphasize this word'' or ``this paragraph is a quotation'') rather than low-level formatting details (``put this word in italics'' or ``narrow the margins for this paragraph''). Instead Reid sold Scribe to a Pittsburgh-area software company called Unilogic. His graduate-student career ending, Reid says he simply was looking for a way to unload the program on a set of developers that would take pains to keep it from slipping into the public domain.  (Why one would consider such an outcome particularly undesirable is not clear.) To sweeten the deal, Reid also agreed to insert a set of time-dependent functions -- ``time bombs'' in software-programmer parlance -- that deactivated freely copied versions of the program after a 90-day expiration date. To avoid deactivation, users paid the software company, which then issued a code that defused the internal time-bomb anti-feature.
-\fi
-
-\ifdefined\chs
-斯托曼对卡耐基梅隆大学并没有什么好印象。1979年，一位在卡耐基梅隆大学的计算机博士研究生，名叫布莱恩·瑞德（Brian Reid）。他开发了一个很不错的文本排版软件，名叫Scribe。但是他却拒绝公开这个软件的代码，震惊了整个开发社区。这个文本排版软件是世界上第一个可以通过标记来指定特定语意（比如“强调这个单词”或“这是一段引文”）的排版软件，而在它之前，一般的排版软件都是通过低级的排版命令（比如“把这个词改为斜体“或”缩小这一段的页边距“）来表达类似的需求。瑞德决定把Scribe出售给一家匹兹堡名叫Unilogic的公司。他当时刚好博士毕业，正打算把开发Scribe的任务转手给别人，免得它流落到公共领域（Public Domain）里。（为什么他会做出这样的决定，迄今为止还令人费解。）为了让这笔交易更具吸引力，瑞德在Scribe中动了点小手脚：他在里面放了个“定时炸弹”，让用户有90天的免费试用期，90天一过，如果用户不交费，则不能再使用这个软件。
-\fi
-
-\ifdefined\eng
-For Stallman, this was a betrayal of the programmer ethos, pure and simple. Instead of honoring the notion of share-and-share alike, Reid had inserted a way for companies to compel programmers to pay for information access.  But he didn't think deeply about the question, since he didn't use Scribe much.
-\fi
-
-\ifdefined\chs
-在斯托曼看来，这样的做法背叛了程序员应有单纯、简单的精神气质。瑞德的做法不但没有弘扬分享再传播的精神，而且竟然还助纣为虐，开辟了一条让软件公司强迫程序员为信息付费的新途径。不过斯托曼也没有太在意这个问题，因为他本人并不太使用Scribe这个软件。
-\fi
-
-\ifdefined\eng
-Unilogic gave the AI Lab a gratis copy to use, but did not remove or mention the time bomb.  It worked, for a while; then one day a user reported that Scribe had stopped working.  System hacker Howard Cannon spent hours debugging the binary until he found the time-bomb and patched it out.  Cannon was incensed, and wasn't shy about telling the other hackers how mad he was that Unilogic had wasted his time with an intentional bug.
-\fi
-
-\ifdefined\chs
-Unilogic提供了一个免费的版本给人工智能实验室使用，但是这个版本中仍然保留了那个“定时炸弹”。这个软件在实验室中正常使用了一段时间，但是有一天，有用户发现它不能正常工作了。一位名叫霍华德·坎农（Howard Cannon）的系统工程师花了几个小时调试了这个软件，最终发现了隐藏在软件内部的“定时炸弹”，他改动了一些代码，把它绕了过去。坎农对此非常愤慨，遇到人就抱怨说Unilogic浪费了他好几个小时的时间去解决一个故意隐藏在软件中的问题。
-
-\fi
-
-\ifdefined\eng
-Stallman had a Lab-related reason, a few months later, to visit the Carnegie Mellon campus. During that visit, he made a point of looking for the person reported to have the printer software source code.  By good fortune, the man was  in his office.
-\fi
-
-\ifdefined\chs
-几个月后，斯托曼因为工作原因，需要去卡耐基梅隆大学出差访问。访问过程中，他在计算机系找到了那位据说拥有激光打印机软件代码的教授。运气不错，那天他还刚好就在办公室。
-\fi
-
-\ifdefined\eng
-In true engineer-to-engineer fashion, the conversation was cordial but blunt. After briefly introducing himself as a visitor from MIT, Stallman requested a copy of the laser-printer source code that he wanted to modify. To his chagrin, the researcher refused.
+%% v1v2
+In true engineer-to-engineer fashion, the conversation was cordial but blunt. After briefly introducing himself as a visitor from MIT, Stallman requested a copy of the laser-printer source code so that he could port it to the PDP-11. To his surprise, the professor refused to grant his request.
 \fi
 
 \ifdefined\chs
@@ -266,23 +314,25 @@ In true engineer-to-engineer fashion, the conversation was cordial but blunt. Af
 \fi
 
 \ifdefined\eng
-Memory is a funny thing. Twenty years after the fact, Stallman's mental history tape is blank in places. Not only does he not remember the motivating reason for the trip or even the time of year during which he took it, he also has no recollection of who was on the other end of the conversation. According to Reid, the person most likely to have fielded Stallman's request is Robert Sproull, a former Xerox PARC researcher and current director of Sun Laboratories, a research division of the computer-technology conglomerate Sun Microsystems. During the 1970s, Sproull had been the primary developer of the laser-printer software in question while at Xerox PARC. Around 1980, Sproull took a faculty research position at Carnegie Mellon where he continued his laser-printer work amid other projects.
+%% v1v2
+Memory is a funny thing. Twenty years after the fact, Stallman's mental history tape is notoriously blank in places. Not only does he not remember the motivating reason for the trip or even the time of year during which he took it, he also has no recollection of the professor or doctoral student on the other end of the conversation. According to Reid, the person most likely to have fielded Stallman's request is Robert Sproull, a former Xerox PARC researcher and current director of Sun Laboratories, a research division of the computer-technology conglomerate Sun Microsystems. During the 1970s, Sproull had been the primary developer of the laser-printer software in question while at Xerox PARC. Around 1980, Sproull took a faculty research position at Carnegie Mellon where he continued his laser-printer work amid other projects.
 \fi
 
 \ifdefined\chs
 记忆总是这么有趣。二十年过去了，斯托曼关于这段经历的回忆大部分都是空白。他都不记得当初为了什么事去的卡耐基梅隆大学，连具体哪年都给忘了。他也不记得那位教授是谁。根据Scribe的作者瑞德的回忆，惹到斯托曼的那位很可能是罗伯特·斯布鲁（Robert Sproull）。他曾是施乐公司PARC研究所的研究员，如今在Sun研究所任部门主管。二十世纪七十年代，斯布鲁在施乐公司PARC研究所负责激光打印机程序的主要开发者。八十年代他拿到了卡耐基梅隆大学的教职，并在那里继续他的激光打印机相关的工作。
 \fi
 
-\ifdefined\eng
-When asked directly about the request, however, Sproull draws a blank. ``I can't make a factual comment,'' writes Sproull via email. ``I have absolutely no recollection of the incident.''
-\fi
+%% \ifdefined\eng
+%% When asked directly about the request, however, Sproull draws a blank. ``I can't make a factual comment,'' writes Sproull via email. ``I have absolutely no recollection of the incident.''
+%% \fi
 
-\ifdefined\chs
-可是，直接给斯布鲁发邮件，询问当初的事情，他却不记得这事了：“实在是无可奉告。”斯布鲁在邮件中写道：“我确实没记得有这么一件事。”
-\fi
+%% \ifdefined\chs
+%% 可是，直接给斯布鲁发邮件，询问当初的事情，他却不记得这事了：“实在是无可奉告。”斯布鲁在邮件中写道：“我确实没记得有这么一件事。”
+%% \fi
 
 \ifdefined\eng
-``The code that Stallman was asking for was leading-edge, state-of-the-art code that Sproull had written in the year or so before going to Carnegie Mellon,'' recalls Reid.  If so, that might indicate a misunderstanding that occurred, since Stallman wanted the source for the program that MIT had used for quite some time, not some newer version. But the question of which version never arose in the brief conversation.
+%% v1v2 
+``The code that Stallman was asking for was leading-edge state-of-the-art code that Sproull had written in the year or so before going to Carnegie Mellon,'' recalls Reid. ``I suspect that Sproull had been at Carnegie Mellon less than a month before this request came in.''
 \fi
 
 \ifdefined\chs
@@ -290,7 +340,8 @@ When asked directly about the request, however, Sproull draws a blank. ``I can't
 \fi
 
 \ifdefined\eng
-In talking to audiences, Stallman has made repeated reference to the incident, noting that the man's unwillingness to hand over the source code stemmed from a nondisclosure agreement, a contractual agreement between him and the Xerox Corporation giving the signatory access to the software source code in exchange for a promise of secrecy. Now a standard item of business in the software industry, the nondisclosure agreement, or NDA, was a novel development at the time, a reflection of both the commercial value of the laser printer to Xerox and the information needed to run it. ``Xerox was at the time trying to make a commercial product out of the laser printer,'' recalls Reid. ``They would have been insane to give away the source code.''
+%% v1v2 m
+With both participants in the brief conversation struggling to recall key details-including whether the conversation even took place-it's hard to gauge the bluntness of Sproull's refusal, at least as recalled by Stallman. In talking to audiences, Stallman has made repeated reference to the incident, noting that Sproull's unwillingness to hand over the source code stemmed from a nondisclosure agreement, a contractual agreement between Sproull and the Xerox Corporation giving Sproull, or any other signatory, access the software source code in exchange for a promise of secrecy. Now a standard item of business in the software industry, the nondisclosure agreement, or NDA, was a novel development at the time, a reflection of both the commercial value of the laser printer to Xerox and the information needed to run it. "Xerox was at the time trying to make a commercial product out of the laser printer," recalls Reid. "They would have been insane to give away the source code."
 \fi
 
 \ifdefined\chs
@@ -298,7 +349,8 @@ In talking to audiences, Stallman has made repeated reference to the incident, n
 \fi
 
 \ifdefined\eng
-For Stallman, however, the NDA was something else entirely. It was a refusal on the part of some CMU researcher to participate in a society that, until then, had encouraged software programmers to regard programs as communal resources. Like a peasant whose centuries-old irrigation ditch had grown suddenly dry, Stallman had followed the ditch to its source only to find a brand-spanking-new hydroelectric dam bearing the Xerox logo.
+%% v1v2 s
+For Stallman, however, the NDA was something else entirely. It was a refusal on the part of Xerox and Sproull, or whomever the person was that turned down his source-code request that day, to participate in a system that, until then, had encouraged software programmers to regard programs as communal resources. Like a peasant whose centuries-old irrigation ditch had grown suddenly dry, Stallman had followed the ditch to its source only to find a brand-spanking-new hydroelectric dam bearing the Xerox logo.
 \fi
 
 \ifdefined\chs
@@ -306,7 +358,8 @@ For Stallman, however, the NDA was something else entirely. It was a refusal on 
 \fi
 
 \ifdefined\eng
-For Stallman, the realization that Xerox had compelled a fellow programmer to participate in this newfangled system of compelled secrecy took a while to sink in. In the first moment, he could only see the refusal in a personal context. ``I was so angry I couldn't think of a way to express it. So I just turned away and walked out without another word,'' Stallman recalls. ``I might have slammed the door. Who knows? All I remember is wanting to get out of there. I went to his office expecting him to cooperate, so I had not thought about how I would respond if he refused.  When he did, I was stunned speechless as well as disappointed and angry.''
+%% v1v2 m
+For Stallman, the realization that Xerox had compelled a fellow programmer to participate in this newfangled system of compelled secrecy took a while to sink in. At first, all he could focus on was the personal nature of the refusal. As a person who felt awkward and out of sync in most face-to-face encounters, Stallman's attempt to drop in on a fellow programmer unannounced had been intended as a demonstration of neighborliness. Now that the request had been refused, it felt like a major blunder. "I was so angry I couldn't think of a way to express it. So I just turned away and walked out without another word," Stallman recalls. "I might have slammed the door. Who knows? All I remember is wanting to get out of there."
 \fi
 
 \ifdefined\chs
@@ -314,7 +367,8 @@ For Stallman, the realization that Xerox had compelled a fellow programmer to pa
 \fi
 
 \ifdefined\eng
-Twenty years after the fact, the anger still lingers, and Stallman presents the event as one that made him confront an ethical issue, though not the only such event on his path. Within the next few months, a series of events would befall both Stallman and the AI Lab hacker community that would make 30 seconds worth of tension in a remote Carnegie Mellon office seem trivial by comparison. Nevertheless, when it comes time to sort out the events that would transform Stallman from a lone hacker, instinctively suspicious of centralized authority, to a crusading activist applying traditional notions of liberty, equality, and fraternity to the world of software development, Stallman singles out the Carnegie Mellon encounter for special attention.
+%% v1v2 s
+Twenty years after the fact, the anger still lingers, so much so that Stallman has elevated the event into a major turning point. Within the next few months, a series of events would befall both Stallman and the AI Lab hacker community that would make 30 seconds worth of tension in a remote Carnegie Mellon office seem trivial by comparison. Nevertheless, when it comes time to sort out the events that would transform Stallman from a lone hacker, instinctively suspicious of centralized authority, to a crusading activist applying traditional notions of liberty, equality, and fraternity to the world of software development, Stallman singles out the Carnegie Mellon encounter for special attention.
 \fi
 
 \ifdefined\chs
@@ -330,43 +384,8 @@ Twenty years after the fact, the anger still lingers, and Stallman presents the 
 \fi
 
 \ifdefined\eng
-Stallman later explained, ``If he had refused me his cooperation for personal reasons, it would not have raised any larger issue.  I might have considered him a jerk, but no more.  The fact that his refusal was impersonal, that he had promised in advance to be uncooperative, not just to me but to anyone whatsoever, made this a larger issue.''
-\fi
-
-\ifdefined\chs
-斯托曼后来解释说：“如果他只是因为个人原因拒绝与我合作，也许事情也就这样不了了之了。也许我会觉得他是一个蠢蛋，但也就仅此而已。但是事实上，他并不是因为个人原因而拒绝我，是因为他先前已经向公司保证了不会泄露源代码，不但不能把源代码给我，也不能给其它任何人，那这个事情性质就变得严重了。”
-\fi
-
-\ifdefined\eng
-Although previous events had raised Stallman's ire, he says it wasn't until his Carnegie Mellon encounter that he realized the events were beginning to intrude on a culture he had long considered sacrosanct.  He said, ``I already had an idea that software should be shared, but I wasn't sure how to think about that. My thoughts weren't clear and organized to the point where I could express them in a concise fashion to the rest of the world. After this experience, I started to recognize what the issue was, and how big it was.''
-\fi
-
-\ifdefined\chs
-尽管之前也有过类似的不快经历，可都不能与这次的打印机事件相提并论。这次事件让斯托曼彻底意识到，这些一系列的事件，正悄悄地侵蚀自己所珍视的文化——那个神圣不可侵犯的“黑客”小圈子的核心文化。他说：“我一直有个信念，那就是软件应该可以可以被分享的，但是我不太确定应该怎么去把它变成现实。我的想法还不太成熟，也不太系统，所以没有办法把它精确的表达出来，让其它人理解。经历了这些事件，我开始渐渐认识到问题的本质和它的严重性。”
-\fi
-
-\ifdefined\eng
-As an elite programmer at one of the world's elite institutions, Stallman had been perfectly willing to ignore the compromises and bargains of his fellow programmers just so long as they didn't interfere with his own work. Until the arrival of the Xerox laser printer, Stallman had been content to look down on the machines and programs other computer users grimly tolerated.
-\fi
-
-\ifdefined\chs
-作为一个世界顶级研究机构的顶级程序员，斯托曼之前一直都无视那些程序员同行所作的各种妥协和让步，因为他们还不至于影响到斯托曼的工作。而如今施乐激光打印机的到来，让斯托曼开始注意到其他计算机用户一直在忍受的程序和机器。
-\fi
-
-\ifdefined\eng
-Now that the laser printer had insinuated itself within the AI Lab's network, however, something had changed. The machine worked fine, barring the paper jams, but the ability to modify software according to personal taste or community need had been taken away. From the viewpoint of the software industry, the printer software represented a change in business tactics. Software had become such a valuable asset that companies no longer accepted the need to publicize source code, especially when publication meant giving potential competitors a chance to duplicate something cheaply. From Stallman's viewpoint, the printer was a Trojan Horse. After a decade of failure, software that users could not change and redistribute -- future hackers would use the term ``proprietary'' software -- had gained a foothold inside the AI Lab through the sneakiest of methods. It had come disguised as a gift.
-\fi
-
-\ifdefined\chs
-如今，这台激光打印机已经强势入驻到人工智能实验室了，而外面的世界也悄悄发生着变化。除了偶尔卡纸以外，打印机工作还算正常。可是按照个人喜好修改软件则不可能了。从软件业的角度看，这打印机的出现是个信号，预示着软件是公司的重要财产。谁也不再愿意发布软件源代码，因为这可能会给潜在竞争对手机会，让他们可以轻松山寨自己的产品。而在斯托曼看来，这打印机简直就是个卧底。十来年的尝试，私有软件总算在人工智能实验室中占得一角。私有软件，也就是如今所说的专有软件，这次被打扮成礼物，潜入得悄无声息。
-\fi
-
-\ifdefined\eng
-That Xerox had offered some programmers access to additional gifts in exchange for secrecy was also galling, but Stallman takes pains to note that, if presented with such a quid pro quo bargain at a younger age, he just might have taken the Xerox Corporation up on its offer. The anger of the Carnegie Mellon encounter, however, had a firming effect on Stallman's own moral lassitude. Not only did it give him the necessary anger to view such future offers with suspicion, it also forced him to turn the situation around: what if a fellow hacker dropped into Stallman's office someday and it suddenly became Stallman's job to refuse the hacker's request for source code?
-\fi
-
-\ifdefined\chs
-施乐公司后来还发出邀请，让一些程序员再使用它们的礼品。斯托曼说，要是再早几年，他没准也无法拒绝这种免费午餐。是那次打印机事件，让斯托曼建立起了道德防线。它不仅燃起了斯托曼久抑的怒火，还让他对以后的各种礼品心存戒备；它更让斯托曼开始思考一个让他自己也坐立不安的问题：要是以后哪个黑客同行进到自己的办公室，向他索要代码，他究竟会不会拒绝呢？
+%% v1
+It was a lesson Stallman would carry with him through the tumultuous years of the 1980s, a decade during which many of his MIT colleagues would depart the AI Lab and sign nondisclosure agreements of their own. Because most nondisclosure aggreements (NDAs) had expiration dates, few hackers who did sign them saw little need for personal introspection. Sooner or later, they reasoned, the software would become public knowledge. In the meantime, promising to keep the software secret during its earliest development stages was all a part of the compromise deal that allowed hackers to work on the best projects. For Stallman, however, it was the first step down a slippery slope.
 \fi
 
 \ifdefined\eng
@@ -377,16 +396,58 @@ That Xerox had offered some programmers access to additional gifts in exchange f
 “要是谁跟我建议，让我以这种方式背叛我的同事，我就会回忆起在打印机事件中，我和我的同事，被别人背叛的感觉，那份怒火终生难忘。”斯托曼说，“我会回敬给分发专有软件的人：‘谢谢你的软件，非常棒！可是我不能接受你的那些保密协议，很遗憾，我不会用它。’”
 \fi
 
-\ifdefined\eng
-It was a lesson Stallman would carry with him through the tumultuous years of the 1980s, a decade during which many of his MIT colleagues would depart the AI Lab and sign nondisclosure agreements of their own. They may have told themselves that this was a necessary evil so they could work on the best projects. For Stallman, however, the NDA called the the moral legitimacy of the project into question.  What good is a technically exciting project if it is meant to be withheld from the community? 
-\fi
+%% \ifdefined\eng
+%% Stallman later explained, ``If he had refused me his cooperation for personal reasons, it would not have raised any larger issue.  I might have considered him a jerk, but no more.  The fact that his refusal was impersonal, that he had promised in advance to be uncooperative, not just to me but to anyone whatsoever, made this a larger issue.''
+%% \fi
 
-\ifdefined\chs
-斯托曼带着这种态度，经历了动荡的八十年代。在这期间，麻省理工学院的同事们纷纷离开人工智能实验室，走进公司，签署了保密协议。大多数保密协议都有解密时间，而这则成了很多黑客们的借口。他们会辩解说：软件迟早会成为公共资源。只要保证软件在早期的开发阶段不被泄露，就可以保证让各位黑客朋友们可以进入到顶尖项目中工作。这些借口，在斯托曼看来，是迈向深渊的第一步。把一个出色的项目放到社区以外去开去，能有什么好处可言呢？
-\fi
+%% \ifdefined\chs
+%% 斯托曼后来解释说：“如果他只是因为个人原因拒绝与我合作，也许事情也就这样不了了之了。也许我会觉得他是一个蠢蛋，但也就仅此而已。但是事实上，他并不是因为个人原因而拒绝我，是因为他先前已经向公司保证了不会泄露源代码，不但不能把源代码给我，也不能给其它任何人，那这个事情性质就变得严重了。”
+%% \fi
+
+%% \ifdefined\eng
+%% Although previous events had raised Stallman's ire, he says it wasn't until his Carnegie Mellon encounter that he realized the events were beginning to intrude on a culture he had long considered sacrosanct.  He said, ``I already had an idea that software should be shared, but I wasn't sure how to think about that. My thoughts weren't clear and organized to the point where I could express them in a concise fashion to the rest of the world. After this experience, I started to recognize what the issue was, and how big it was.''
+%% \fi
+
+%% \ifdefined\chs
+%% 尽管之前也有过类似的不快经历，可都不能与这次的打印机事件相提并论。这次事件让斯托曼彻底意识到，这些一系列的事件，正悄悄地侵蚀自己所珍视的文化——那个神圣不可侵犯的“黑客”小圈子的核心文化。他说：“我一直有个信念，那就是软件应该可以可以被分享的，但是我不太确定应该怎么去把它变成现实。我的想法还不太成熟，也不太系统，所以没有办法把它精确的表达出来，让其它人理解。经历了这些事件，我开始渐渐认识到问题的本质和它的严重性。”
+%% \fi
+
+%% \ifdefined\eng
+%% As an elite programmer at one of the world's elite institutions, Stallman had been perfectly willing to ignore the compromises and bargains of his fellow programmers just so long as they didn't interfere with his own work. Until the arrival of the Xerox laser printer, Stallman had been content to look down on the machines and programs other computer users grimly tolerated.
+%% \fi
+
+%% \ifdefined\chs
+%% 作为一个世界顶级研究机构的顶级程序员，斯托曼之前一直都无视那些程序员同行所作的各种妥协和让步，因为他们还不至于影响到斯托曼的工作。而如今施乐激光打印机的到来，让斯托曼开始注意到其他计算机用户一直在忍受的程序和机器。
+%% \fi
+
+%% \ifdefined\eng
+%% Now that the laser printer had insinuated itself within the AI Lab's network, however, something had changed. The machine worked fine, barring the paper jams, but the ability to modify software according to personal taste or community need had been taken away. From the viewpoint of the software industry, the printer software represented a change in business tactics. Software had become such a valuable asset that companies no longer accepted the need to publicize source code, especially when publication meant giving potential competitors a chance to duplicate something cheaply. From Stallman's viewpoint, the printer was a Trojan Horse. After a decade of failure, software that users could not change and redistribute -- future hackers would use the term ``proprietary'' software -- had gained a foothold inside the AI Lab through the sneakiest of methods. It had come disguised as a gift.
+%% \fi
+
+%% \ifdefined\chs
+%% 如今，这台激光打印机已经强势入驻到人工智能实验室了，而外面的世界也悄悄发生着变化。除了偶尔卡纸以外，打印机工作还算正常。可是按照个人喜好修改软件则不可能了。从软件业的角度看，这打印机的出现是个信号，预示着软件是公司的重要财产。谁也不再愿意发布软件源代码，因为这可能会给潜在竞争对手机会，让他们可以轻松山寨自己的产品。而在斯托曼看来，这打印机简直就是个卧底。十来年的尝试，私有软件总算在人工智能实验室中占得一角。私有软件，也就是如今所说的专有软件，这次被打扮成礼物，潜入得悄无声息。
+%% \fi
+
+%% \ifdefined\eng
+%% That Xerox had offered some programmers access to additional gifts in exchange for secrecy was also galling, but Stallman takes pains to note that, if presented with such a quid pro quo bargain at a younger age, he just might have taken the Xerox Corporation up on its offer. The anger of the Carnegie Mellon encounter, however, had a firming effect on Stallman's own moral lassitude. Not only did it give him the necessary anger to view such future offers with suspicion, it also forced him to turn the situation around: what if a fellow hacker dropped into Stallman's office someday and it suddenly became Stallman's job to refuse the hacker's request for source code?
+%% \fi
+
+%% \ifdefined\chs
+%% 施乐公司后来还发出邀请，让一些程序员再使用它们的礼品。斯托曼说，要是再早几年，他没准也无法拒绝这种免费午餐。是那次打印机事件，让斯托曼建立起了道德防线。它不仅燃起了斯托曼久抑的怒火，还让他对以后的各种礼品心存戒备；它更让斯托曼开始思考一个让他自己也坐立不安的问题：要是以后哪个黑客同行进到自己的办公室，向他索要代码，他究竟会不会拒绝呢？
+%% \fi
+
+
+%% \ifdefined\eng
+%% It was a lesson Stallman would carry with him through the tumultuous years of the 1980s, a decade during which many of his MIT colleagues would depart the AI Lab and sign nondisclosure agreements of their own. They may have told themselves that this was a necessary evil so they could work on the best projects. For Stallman, however, the NDA called the the moral legitimacy of the project into question.  What good is a technically exciting project if it is meant to be withheld from the community? 
+%% \fi
+
+%% \ifdefined\chs
+%% 斯托曼带着这种态度，经历了动荡的八十年代。在这期间，麻省理工学院的同事们纷纷离开人工智能实验室，走进公司，签署了保密协议。大多数保密协议都有解密时间，而这则成了很多黑客们的借口。他们会辩解说：软件迟早会成为公共资源。只要保证软件在早期的开发阶段不被泄露，就可以保证让各位黑客朋友们可以进入到顶尖项目中工作。这些借口，在斯托曼看来，是迈向深渊的第一步。把一个出色的项目放到社区以外去开去，能有什么好处可言呢？
+%% \fi
 
 \ifdefined\eng
-As Stallman would quickly learn, refusing such offers involved more than personal sacrifice. It involved segregating himself from fellow hackers who, though sharing a similar distaste for secrecy, tended to express that distaste in a more morally flexible fashion. Refusing another's request for source code, Stallman decided, was not only a betrayal of the scientific mission that had nurtured software development since the end of World War II, it was a violation of the Golden Rule, the baseline moral dictate to do unto others as you would have them do unto you.
+%% v1v2 m
+As Stallman would quickly learn, refusing such requests involved more than personal sacrifice. It involved segregating himself from fellow hackers who, though sharing a similar distaste for secrecy, tended to express that distaste in a more morally flexible fashion. It wasn't long before Stallman, increasingly an outcast even within the AI Lab, began billing himself as "the last true hacker," isolating himself further and further from a marketplace dominated by proprietary software. Refusing another's request for source code, Stallman decided, was not only a betrayal of the scientific mission that had nurtured software development since the end of World War II, it was a violation of the Golden Rule, the baseline moral dictate to do unto others as you would have them do unto you.
 \fi
 
 \ifdefined\chs
@@ -394,7 +455,8 @@ As Stallman would quickly learn, refusing such offers involved more than persona
 \fi
 
 \ifdefined\eng
-Hence the importance of the laser printer and the encounter that resulted from it. Without it, Stallman says, his life might have followed a more ordinary path, one balancing the material comforts of a commercial programmer with the ultimate frustration of a life spent writing invisible software code. There would have been no sense of clarity, no urgency to address a problem others weren't addressing. Most importantly, there would have been no righteous anger, an emotion that, as we soon shall see, has propelled Stallman's career as surely as any political ideology or ethical belief.
+%% v1v2 s
+Hence the importance of the laser printer and the encounter that resulted from it. Without it, Stallman says, his life might have followed a more ordinary path, one balancing the riches of a commercial programmer with the ultimate frustration of a life spent writing invisible software code. There would have been no sense of clarity, no urgency to address a problem others weren't addressing. Most importantly, there would have been no righteous anger, an emotion that, as we soon shall see, has propelled Stallman's career as surely as any political ideology or ethical belief.
 \fi
 
 \ifdefined\chs
@@ -402,7 +464,8 @@ Hence the importance of the laser printer and the encounter that resulted from i
 \fi
 
 \ifdefined\eng
-``From that day forward, I decided this was something I could never participate in,'' says Stallman, alluding to the practice of trading personal liberty for the sake of convenience -- Stallman's description of the NDA bargain -- as well as the overall culture that encouraged such ethically suspect deal-making in the first place. ``I decided never to make other people victims as I had been a victim.''
+%v1v2 s
+``From that day forward, I decided this was something I could never participate in,'' says Stallman, alluding to the practice of trading personal liberty for the sake of convenience-Stallman's description of the NDA bargain-as well as the overall culture that encouraged such ethically suspect deal-making in the first place. ``I decided never to make other people victims just like I had been a victim.''
 \fi
 
 \ifdefined\chs
