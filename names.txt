@@ -90,6 +90,20 @@ Joanne Costello 乔安妮·科斯特洛
 Mark Fischer 马克·费雪
 John Gilmore 约翰·吉尔摩
 
+ch14
+Malcolm X 马尔科姆·艾克斯
+Alex Haley 亚历克斯·哈里
+Richard M. Stallman 理查德·M·斯托曼
+Tracy Pattison 特蕾西·帕蒂森
+Stephen King 斯蒂芬·金
+Henning Guttman 亨宁·格特曼
+Dmitri Sklyarov 德米特里·斯柯里亚诺夫
+Eric Raymond 埃里克·雷蒙德
+Ted Nelson 泰德·尼尔森
+Laurie Petrycki 劳里·帕瑞其
+Linus Torvalds 林纳斯·托瓦兹
+
+
 terminology
 Christine Peterson 克里斯汀·彼德森
 
