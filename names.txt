@@ -17,7 +17,7 @@ N. P. 纽奎斯特所 (N. P. Newquist)
 李奇·莫林（Rich Morin）
 比尔·乔伊（Bill Joy）
 詹姆斯·高斯林（James Gosling）
-罗伯特·查瑟尔（Robert Chassell）
+（Robert Chassell）
 埃文·列伊博维奇（Evan Leibovitch）
 艾瑞克·雷蒙德（Eric Raymond）
 克林顿（Clinton）
@@ -29,14 +29,14 @@ N. P. 纽奎斯特所 (N. P. Newquist)
 乔安妮·科斯特洛（Joanne Costello）
 林纳斯·托瓦兹（Linus Torvalds）
 杰里·科恩（Jerry Cohen）
-基思·博斯蒂克(Keith Bostic)
-布鲁斯·佩伦斯(Bruce Perens)
+
+
 迈克尔·蒂曼(Michale Tiemann)
 杰瑞米·埃里森(Jeremy Allison)
 安德鲁·塔嫩鲍姆(Andrew Tanenbaum)
 罗伯特·查瑟尔(Robert Chassell)
-罗伯特·杨(Robert Young)
-伊恩·默多克(Ian Murdock)
+
+
 彼得·萨卢斯(Peter Salus)
 埃里克·斯蒂芬·雷蒙德(Eric Steven Raymond) 埃里克·雷蒙德
 克里斯汀·彼德森（Christine Peterson）
@@ -89,6 +89,26 @@ Mike Fischer 麦克·费雪
 Joanne Costello 乔安妮·科斯特洛
 Mark Fischer 马克·费雪
 John Gilmore 约翰·吉尔摩
+Larry Wall 拉里·华尔
+Jerry Cohen 杰里·科恩
+David Betz 大卫·贝茨
+Jon Edwards 乔恩·爱德华兹
+Don Hopkins 堂·霍普金斯
+Max Web 马克斯·韦伯
+Keith Bostic 基思·博斯蒂克
+Bruce Perens 布鲁斯·佩伦斯
+Reuven Lerner 鲁文·勒纳
+Michael Gross 迈克尔·格罗斯
+David Diamond 大卫·戴蒙
+Andrew Tanenbaum 安德鲁·塔嫩鲍姆
+Robert Chassel 罗伯特·查瑟尔
+Robert Young 罗伯特·杨
+
+ch 10
+
+Clinton 克林顿
+Tom Sawyer 汤姆·索亚
+Ian Murdock 伊恩·默多克
 
 ch14
 Malcolm X 马尔科姆·艾克斯
