@@ -31,7 +31,7 @@ N. P. 纽奎斯特所 (N. P. Newquist)
 杰里·科恩（Jerry Cohen）
 
 
-迈克尔·蒂曼(Michale Tiemann)
+
 杰瑞米·埃里森(Jeremy Allison)
 安德鲁·塔嫩鲍姆(Andrew Tanenbaum)
 罗伯特·查瑟尔(Robert Chassell)
@@ -109,6 +109,19 @@ ch 10
 Clinton 克林顿
 Tom Sawyer 汤姆·索亚
 Ian Murdock 伊恩·默多克
+Simson Garfinkel 辛姆森·加芬克尔
+Eric Raymond 埃里克·雷蒙德
+Winston Churchill 温斯顿·丘吉尔
+Deborah 黛博拉
+Jamie Zawinski 杰米·泽文斯基
+Bruce Perens 布鲁斯·佩伦斯
+Robert Young 罗伯特·杨
+Linus Torvalds 林纳斯·托瓦兹
+Michael Tiemann 迈克尔·蒂曼
+John Gilmore 约翰·吉尔摩
+Chris DiBona 克里斯·迪邦纳
+
+
 
 ch14
 Malcolm X 马尔科姆·艾克斯
