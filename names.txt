@@ -122,6 +122,18 @@ John Gilmore 约翰·吉尔摩
 Chris DiBona 克里斯·迪邦纳
 
 
+ch11
+Peter Salus 彼得·萨卢斯
+Linus Torvalds 林纳斯·托瓦兹
+Terry Winograd 特里·威诺格拉德
+Eric Steven Raymond 埃里克·斯蒂芬·雷蒙德
+Brain Youmans 布雷恩·尤曼斯
+Fred P. Brooks 佛瑞德·P·布鲁克斯
+Tim O'Reilly 提姆·奥莱理
+Larry Wall 拉里·华尔
+Jim Barksdale 吉姆·巴克斯代尔
+Marc Andreessen 马克·安德生
+
 
 ch14
 Malcolm X 马尔科姆·艾克斯
