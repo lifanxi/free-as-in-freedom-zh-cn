@@ -1,3 +1,27 @@
+Free as in Freedom: Richard Stallman's Crusade for Free Software
+
+Sam Williams
+
+Contents
+
+Preface 
+1 For Want of a Printer 
+2 2001: A Hacker's Odyssey 
+3 A Portrait of the Hacker as a Young Man 
+4 Impeach God 
+5 Puddle of Freedom 
+6 The Emacs Commune 
+7 A Stark Moral Choice 
+8 St. Ignucius 
+9 The GNU General Public License 
+10 GNU/Linux 
+11 Open Source 
+12 A Brief Journey through Hacker Hell 
+13 Continuing the Fight 
+14 Epilogue: Crushing Loneliness 
+Appendix A-Terminology 
+Appendix B-Hack, Hackers, and Hacking 
+Appendix C-GNU Free Documentation License
 Preface
 The work of Richard M. Stallman literally speaks for itself. From the documented source code to the published papers to the recorded speeches, few people have expressed as much willingness to lay their thoughts and their work on the line.
 Such openness-if one can pardon a momentary un-Stallman adjective-is refreshing. After all, we live in a society that treats information, especially personal information, as a valuable commodity. The question quickly arises. Why would anybody want to part with so much information and yet appear to demand nothing in return?
