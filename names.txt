@@ -151,6 +151,34 @@ Amy Harmon 艾米·哈蒙
 John Markoff 约翰·马尔科夫
 Ian Murdock 伊恩·默多克
 
+ch12 
+Keith Bostic 基思·博斯蒂克
+Jean Paul Sartre 让-保罗·萨特
+Steven Levy 史蒂芬·李维
+Virgil 维吉尔
+
+ch 13
+Raymond 雷蒙德
+Linus Torvalds 林纳斯·托瓦兹
+Luke Skywalker 卢克·天行者
+Bill Joy 比尔·乔伊
+Marco Boerries 马科·博瑞斯
+Eben Moglen 伊本·莫格林
+Phillip Zimmerman 菲利普·齐默曼
+Dmitri Sklyarov 德米特里·斯柯里亚夫诺
+Henry David Thoreau 亨利·戴维·梭罗
+John Muir 约翰·缪尔
+William Jennings Bryan 威廉·詹宁斯·布莱恩
+John Gilmore 约翰·吉尔摩
+Theodor Holm Nelson 西奥多·霍尔姆·尼尔森
+Ted Nelson 泰德·尼尔森
+Thomas Jefferson 托马斯·杰斐逊
+Lawrence Lessig 劳伦斯·莱斯格
+Vannevar Bush 万尼瓦尔·布什
+Vinton Cerf 文顿·瑟夫
+J. C. R. Licklider 约瑟夫·利克莱德
+John Brown 约翰·布朗
+
 ch14
 Malcolm X 马尔科姆·艾克斯
 Alex Haley 亚历克斯·哈里
