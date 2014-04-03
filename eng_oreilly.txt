@@ -661,8 +661,9 @@ Watching Stallman deliver his political message in person, it is hard to see any
 Such answers, however, reinforce the quasi-religious nature of the Stallman message. Like a Jew keeping kosher or a Mormon refusing to drink alcohol, Stallman paints his decision to use free software in the place of proprietary in the color of tradition and personal belief. As software evangelists go, Stallman avoids forcing those beliefs down listeners' throats. Then again, a listener rarely leaves a Stallman speech not knowing where the true path to software righteousness lies.
 As if to drive home this message, Stallman punctuates his speech with an unusual ritual. Pulling a black robe out of a plastic grocery bag, Stallman puts it on. Out of a second bag, he pulls a reflective yellow computer disk and places it on his head. The crowd lets out a startled laugh.
 "I am St. Ignucius of the Church of Emacs," says Stallman, raising his right hand in mock-blessing. "I bless your computer, my child."
- 
-Stallman dressed as St. Ignucius. Photo by Wouter van Oortmerssen.
+ PIC
+Figure 8.1: Stallman dressed as St. Ignucius. Photo by Wouter van Oortmerssen.
+
 The laughter turns into full-blown applause after a few seconds. As audience members clap, the computer disk on Stallman's head catches the glare of an overhead light, eliciting a perfect halo effect. In the blink of an eye, Stallman goes from awkward haole to Russian religious icon.
 " Emacs was initially a text editor," says Stallman, explaining the getup. "Eventually it became a way of life for many and a religion for some. We call this religion the Church of Emacs."
 The skit is a lighthearted moment of self-pardoy, a humorous return-jab at the many people who might see Stallman's form of software asceticism as religious fanaticism in disguise. It is also the sound of the other shoe dropping-loudly. It's as if, in donning his robe and halo, Stallman is finally letting listeners of the hook, saying, "It's OK to laugh. I know I'm weird."
@@ -687,19 +688,19 @@ Stallman's recoils as if hit by a poisonous spray. "Wait a second," Stallman say
 The audience falls silent. The speech, which began at 3:15, is now nearing the 5:00 whistle, and most listeners are already squirming in their seats, antsy to get a jump start on the weekend. Sensing the fatigue, Stallman glances around the room and hastily shuts things down. "So it looks like we're done," he says, following the observation with an auctioneer's "going, going, gone" to flush out any last-minute questioners. When nobody throws their hand up, Stallman signs off with a traditional exit line.
 "Happy hacking," he says.
 Endnotes
-See "Grateful Dead Time Capsule: 1985-1995 North American Tour Grosses." 
-http://www.accessplace.com/gdtc/1197.htm
-See Evan Leibovitch, "Who's Afraid of Big Bad Wolves," ZDNet Tech Update (December 15, 2000). 
-http://techupdate.zdnet.com/techupdate/stories/main/0Y/A>
- For narrative purposes, I have hesitated to go in-depth when describing Stallman's full definition of software "freedom." The GNU Project web site lists four fundamental components: 
+
+1See "Grateful Dead Time Capsule: 1985-1995 North American Tour Grosses." http://www.accessplace.com/gdtc/1197.htm
+2See Evan Leibovitch, "Who's Afraid of Big Bad Wolves," ZDNet Tech Update (December 15, 2000). http://techupdate.zdnet.com/techupdate/stories/main/0Y/A>
+3For narrative purposes, I have hesitated to go in-depth when describing Stallman's full definition of software "freedom." The GNU Project web site lists four fundamental components: 
+
 The freedom to run a program, for any purpose (freedom 0). 
 The freedom to study how a program works, and adapt it to your needs (freedom 1). 
 The freedom to redistribute copies of a program so you can help your neighbor (freedom 2). 
 The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3). 
 For more information, please visit "The Free Software Definition" at http://www.gnu.org/philosophy/free-sw.html.
-See Eric Raymond, "Shut Up and Show Them the Code," online essay, (June 28, 1999).
-See "Guest Interview: Eric S. Raymond," Linux.com (May 18, 1999). 
-http://www.linux.com/interviews/19990518/8/
+4See Eric Raymond, "Shut Up and Show Them the Code," online essay, (June 28, 1999).
+5See "Guest Interview: Eric S. Raymond," Linux.com (May 18, 1999). http://www.linux.com/interviews/19990518/8/
+
 Chapter 9
 The GNU General Public License
 By the spring of 1985, Richard Stallman had settled on the GNU Project's first milestone-a Lisp-based free software version of Emacs. To meet this goal, however, he faced two challenges. First, he had to rebuild Emacs in a way that made it platform independent. Second, he had to rebuild the Emacs Commune in a similar fashion.
@@ -788,11 +789,9 @@ As far as Torvalds was concerned, he was simply the latest in a long line of kid
 Endnotes
 1See Hal Abelson, Mike Fischer, and Joanne Costello, "Software and Copyright Law," updated version (1998). 
 http://www.swiss.ai.mit.edu/6805/articles/int-prop/software-copyright.html
-2See Trn Kit README. 
-http://www.za.debian.org/doc/trn/trn-readme
+2See Trn Kit README. http://www.za.debian.org/doc/trn/trn-readme
 3See John Gilmore, quoted from email to author.
-4See Richard Stallman, et al., "GNU General Public License: Version 1," (February, 1989). 
-http://www.gnu.org/copyleft/copying-1.0.html
+4See Richard Stallman, et al., "GNU General Public License: Version 1," (February, 1989). http://www.gnu.org/copyleft/copying-1.0.html
 5See David Betz and Jon Edwards, "Richard Stallman discusses his public-domain [sic] Unix-compatible software system with BYTE editors," BYTE (July, 1996). (Reprinted on the GNU Project web site: http://www.gnu.org/gnu/byte-interview.html.) 
 This interview offers an interesting, not to mention candid, glimpse at Stallman's political attitudes during the earliest days of the GNU Project. It is also helpful in tracing the evolution of Stallman's rhetoric. 
 Describing the purpose of the GPL, Stallman says, "I'm trying to change the way people approach knowledge and information in general. I think that to try to own knowledge, to try to control whether people are allowed to use it, or to try to stop other people from sharing it, is sabotage." 
@@ -800,27 +799,25 @@ Contrast this with a statement to the author in August 2000: "I urge you not to 
 6The University of California's "obnoxious advertising clause" would later prove to be a problem. Looking for a less restrictive alternative to the GPL, some hackers used the University of California, replacing "University of California" with the name of their own instution. The result: free software programs that borrowed from dozens of other programs would have to cite dozens of institutions in advertisements. In 1999, after a decade of lobbying on Stallman's part, the University of California agreed to drop this clause. See "The BSD License Problem" at http://www.gnu.org/philosophy/bsd.html.
 7See Michael Tiemann, "Future of Cygnus Solutions: An Entrepreneur's Account," Open Sources (O'Reilly & Associates, Inc., 1999): 139.
 8See Richard Stallman, BYTE (1986).
-See "HURD History." 
-http://www.gnu.org/software/hurd/history.html
- According to a League of Programming Freedom Press, the protests were notable for featuring the first hexadecimal protest chant: 
+9See "HURD History."http://www.gnu.org/software/hurd/history.html
+10According to a League of Programming Freedom Press, the protests were notable for featuring the first hexadecimal protest chant: 
 1-2-3-4, toss the lawyers out the door; 
 5-6-7-8, innovate don't litigate; 
 9-A-B-C, 1-2-3 is not for me; 
 D-E-F-O, look and feel have got to go 
 http://lpf.ai.mit.edu/Links/prep.ai.mit.edu/demo.final.release
- I use the term "writing" here loosely. About the time of the MacArthur award, Stallman began suffering chronic pain in his hands and was dictating his work to FSF-employed typists. Although some have speculated that the hand pain was the result of repetitive stress injury, or RSI, an injury common among software programmers, Stallman is not 100% sure. "It was NOT carpal tunnel syndrome," he writes. "My hand problem was in the hands themselves, not in the wrists." Stallman has since learned to work without typists after switching to a keyboard with a lighter touch.
-See Reuven Lerner, "Stallman wins $240,000 MacArthur award," MIT, The Tech (July 18, 1990). 
+11I use the term "writing" here loosely. About the time of the MacArthur award, Stallman began suffering chronic pain in his hands and was dictating his work to FSF-employed typists. Although some have speculated that the hand pain was the result of repetitive stress injury, or RSI, an injury common among software programmers, Stallman is not 100% sure. "It was NOT carpal tunnel syndrome," he writes. "My hand problem was in the hands themselves, not in the wrists." Stallman has since learned to work without typists after switching to a keyboard with a lighter touch.
+12See Reuven Lerner, "Stallman wins $240,000 MacArthur award," MIT, The Tech (July 18, 1990). 
 http://the-tech.mit.edu/V110/N30/rms.30n.html
- See Michael Gross, "Richard Stallman: High School Misfit, Symbol of Free Software, MacArthur-certified Genius" (1999).
- See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 58-59.
- See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 78.
-See "Linux 10th Anniversary." 
+13See Michael Gross, "Richard Stallman: High School Misfit, Symbol of Free Software, MacArthur-certified Genius" (1999).
+14See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 58-59.
+15See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 78.
+16See "Linux 10th Anniversary." 
 http://www.linux10.org/history/
- See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 96-97.
- See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 94-95.
-See Robert Young, "Interview with Linus, the Author of Linux," Linux Journal (March 1, 1994). 
-http://www.linuxjournal.com/article.php?sid=2736
- See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 59.
+17See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 96-97.
+18See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 94-95.
+19See Robert Young, "Interview with Linus, the Author of Linux," Linux Journal (March 1, 1994). http://www.linuxjournal.com/article.php?sid=2736
+20See Linus Torvalds and David Diamond, Just For Fun: The Story of an Accidentaly Revolutionary (HarperCollins Publishers, Inc., 2001): 59.
 Chapter 10
 GNU/Linux
 By 1993, the free software movement was at a crossroads. To the optimistically inclined, all signs pointed toward success for the hacker culture. Wired magazine, a funky, new publication offering stories on data encryption, Usenet, and software freedom, was flying off magazine racks. The Internet, once a slang term used only by hackers and research scientists, had found its way into mainstream lexicon. Even President Clinton was using it. The personal computer, once a hobbyist's toy, had grown to full-scale respectability, giving a whole new generation of computer users access to hacker-built software. And while the GNU Project had not yet reached its goal of a fully intact, free software operating system, curious users could still try Linux in the interim.
