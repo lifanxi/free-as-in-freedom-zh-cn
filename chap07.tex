@@ -70,13 +70,62 @@ I am Richard Stallman, inventor of the original much-imitated EMACS editor, now 
 \fi
 
 \ifdefined\eng
+\ifdefined\vone
+As fate would have it, Stallman's fanciful GNU Project missed its Thanksgiving launch date. By January, 1984, however, Stallman made good on his promise and fully immersed himself in the world of Unix software development. For a software architect raised on ITS, it was like designing suburban shopping malls instead of Moorish palaces. Even so, building a Unix-like operating system had its hidden advantages. ITS had been powerful, but it also possessed an Achilles' heel: MIT hackers had designed it to take specific advantage of the DEC-built PDP line. When AI Lab administrators elected to phase out the lab's powerful PDP-10 machine in the early 1980s, the operating system that hackers once likened to a vibrant city became an instant ghost town. Unix, on the other hand, was designed for mobility and long-term survival. Originally developed by junior scientists at AT\&T, the program had slipped out under corporate-management radar, finding a happy home in the cash-strapped world of academic computer systems. With fewer resources than their MIT brethren, Unix developers had customized the software to ride atop a motley assortment of hardware systems: everything from the 16-bit PDP-11-a machine considered fit for only small tasks by most AI Lab hackers-to 32-bit mainframes such as the VAX 11/780. By 1983, a few companies, most notably Sun Microsystems, were even going so far as to develop a new generation of microcomputers, dubbed ``workstations,'' to take advantage of the increasingly ubiquitous operating system.
+\fi
+\ifdefined\vtwo
 As fate would have it, Stallman's fanciful GNU Project missed its Thanksgiving launch date. By January, 1984, however, Stallman made good on his promise and fully immersed himself in the world of Unix software development. For a software architect raised on ITS, it was like designing suburban shopping malls instead of Moorish palaces. Even so, building a Unix-like operating system had its hidden advantages. ITS had been powerful, but it also possessed an Achilles' heel: MIT hackers had written it specifically to run on the powerful DEC-built PDP-10 computer. When AI Lab administrators elected to phase out the lab's PDP-10 machine in the early 1980s, the operating system that hackers once likened to a vibrant city became an instant ghost town. Unix, on the other hand, was designed for portability, which made it immune to such dangers. Originally developed by junior scientists at AT\&T, the program had slipped out under corporate-management radar, finding a happy home in the cash-strapped world of academic computer systems. With fewer resources than their MIT brethren, Unix developers had customized the software to ride atop a motley assortment of hardware systems, primarily the 16-bit PDP-11 -- a machine considered fit for only small tasks by most AI Lab hackers -- but later also 32-bit mainframes such as the VAX 11/780. By 1983, a few companies, most notably Sun Microsystems, were developing a more powerful generation of desktop computers, dubbed ``workstations,'' to take advantage of that increasingly ubiquitous operating system on machines comparable in power to the much older PDP-10.
+\fi
 \fi
 
 \ifdefined\chs
 似乎是命中注定一般，斯托曼的GNU系统没能赶在感恩节假期结束前发布。不过斯托曼依旧赶在1984年1月的时候做出了不小的成果，他自己也完全融入到了UNIX软件开发的世界之中。对于这位从ITS世界来的架构师来说，在UNIX中设计软件似乎更像是设计城郊购物中心，而非设计紫禁城皇宫。即便如此，设计成类UNIX系统依旧有它的优势。ITS的确强大，但仍有一处致命缺陷：麻省理工学院的黑客们创造的ITS系统，是专门针对当时强大的DEC PDP-10计算机设计。可到了八十年代，人工智能实验室的管理员决定淘汰掉实验室的PDP-10计算机。当年辉煌一时的ITS系统也因此成了一座无人的鬼城。而UNIX的设计则与此不同。它的设计非常强调移植性，它并不依赖于某个特定硬件环境。因此，面对硬件更替，UNIX则毫无压力。UNIX最初是由当时AT\&T贝尔实验室的几个年轻科学家创造。之后，这套系统被大家纷纷传阅，不断改进。在资金并不富裕的学术界，UNIX系统甚是流行。和麻省理工学院的同僚们不同，UNIX的作者可用的硬件资源非常有限。他们必须把软件设计得可以在各种良莠不齐的硬件上运行无阻。最初是针对PDP-11系统设计，PDP-11是DEC推出的另一种16位计算机。在麻省理工人工智能实验室的黑客们看来，它顶多只能用来跑些小程序。之后，UNIX又陆续开始支持32位计算机，比如VAX11/780。到了1983年，一些公司开始推出更强大的一代被称作``工作站''的桌面计算机。其中以Sun公司产品最为引人注目。这些运行着UNIX的计算机有着更小的体积，却和当年的PDP-10性能相当。
 \fi
 
+\ifdefined\vone
+\ifdefined\eng
+To facilitate this process, the developers in charge of designing the dominant Unix strains made sure to keep an extra layer of abstraction between the software and the machine. Instead of tailoring the operating system to take advantage of a specific machine's resources-as the AI Lab hackers had done with ITS and the PDP-10-Unix developers favored a more generic, off-the-rack approach. Focusing more on the interlocking standards and specifications that held the operating system's many subcomponents together, rather than the actual components themselves, they created a system that could be quickly modified to suit the tastes of any machine. If a user quibbled with a certain portion, the standards made it possible to pull out an individual subcomponent and either fix it or replace it with something better. Simply put, what the Unix approach lacked in terms of style or aesthetics, it more than made up for in terms of flexibility and economy, hence its rapid adoption.\endnote{See Marshall Kirk McKusick, ``Twenty Years of Berkeley Unix,'' \textit{Open Sources} (O'Reilly \& Associates, Inc., 1999): 38.}
+\fi
+
+\ifdefined\chs
+为了增强可移植能力，负责UNIX开发的程序员在软件和计算机之间，加入了一个抽象层。和人工智能实验室的PDP-10上的ITS系统不同，UNIX并不使用针对某个硬件平台所特有的系统资源进行开发，而是采用了一种更为通用和现成的实现方式。开发者们于是可以放眼全局，集中设计各个组件之间的协调机制，设计组件的接口标准，而不必把精力分散到每个组件的开发和移植上。他们由此创造了一套系统，可以轻易地被移植到各种计算机上。如果某个用户对哪个组件不满意，他们可以按照定义好的接口标准，修改现有组件，甚至重新开发一个同样功能的组件，再把改进的组件放回原位，一切依旧会运行正常。简而言之，抛开美学上的意义不谈，UNIX的设计具备极大的灵活性，这也促进了计算机这个市场的发展，更为UNIX带来了无限生机\endnote{参见马歇尔·柯克·麦库西克（Marshall Kirk McKusick）的文章《伯克利UNIX二十年》，该文收录于《开源软件文集》中。该书中文版已由中国电力出版社出版。}。
+\fi
+
+\ifdefined\eng
+Stallman's decision to start developing the GNU system was triggered by the end of the ITS system that the AI Lab hackers had nurtured for so long. The demise of ITS had been a traumatic blow to Stallman. Coming on the heels of the Xerox laser printer episode, it offered further evidence that the AI Lab hacker culture was losing its immunity to business practices in the outside world.
+\fi
+
+\ifdefined\chs
+斯托曼之所以决定开发一套名为GNU的类UNIX系统，是因为人工智能实验室已经停止使用ITS了。而整个实验室的黑客文化，也伴随这ITS的消亡，渐渐分崩离析。这个改变对斯托曼来说，可谓打击重大。施乐公司打印机事件，也从另一个方而证明了，人工智能实验室的黑客文化正渐渐迷失在实验室外的商业世界里。
+\fi
+
+\ifdefined\eng
+Like the software code that composed it, the roots of ITS' demise stretched way back. Defense spending, long a major font for computer-science research, had dried up during the post-Vietnam years. In a desperate quest for new funds, laboratories and universities turned to the private sector. In the case of the AI Lab, winning over private investors was an easy sell. Home to some of the most ambitious computer-science projects of the post-war era, the lab became a quick incubator of technology. Indeed, by 1980, most of the lab's staff, including many hackers, were dividing its time between Institute and commercial projects.
+\fi
+
+\ifdefined\chs
+ITS的消亡过程历经了很长时间。在越南战争之后，很多原本可以用于计算机科学研究的国防经费也开始捉襟见肘。为了能够寻求到更多的资金，实验室和大学都开始转向私人领域。就拿人工智能实验室来说，要从一些私人投资者那里争取到资助是非常容易的。作为战后时期很多重要项目的发源地，人工智能实验室很快就成为各种高新技术的孵化器。事实上，到了1980年，包括很多黑客在内的实验室大部分成员都同时参与研究项目与商业项目。
+\fi
+
+\ifdefined\eng
+What at first seemed like a win-win deal-hackers got to work on the best projects, giving the lab first look at many of the newest computer technologies coming down the pike-soon revealed itself as a Faustian bargain. The more time hackers devoted to cutting-edge commercial projects, the less time they had to devote to general maintenance on the lab's baroque software infrastructure. Soon, companies began hiring away hackers outright in an attempt to monopolize their time and attention. With fewer hackers to mind the shop, programs and machines took longer to fix. Even worse, Stallman says, the lab began to undergo a ``demographic change.'' The hackers who had once formed a vocal minority within the AI Lab were losing membership while ``the professors and the students who didn't really love the [PDP-10] were just as numerous as before.''\endnote{....}
+\fi
+
+\ifdefined\chs
+..........
+\fi
+
+\ifdefined\eng
+The breaking point came in 1982. That was the year the lab's administration decided to upgrade its main computer, the PDP-10. Digital, the corporation that manufactured the PDP-10, had discontinued the line. Although the company still offered a high-powered mainframe, dubbed the KL-10, the new machine required a drastic rewrite or ``port'' of ITS if hackers wanted to continue running the same operating system. Fearful that the lab had lost its critical mass of in-house programming talent, AI Lab faculty members pressed for Twenex, a commercial operating system developed by Digital. Outnumbered, the hackers had no choice but to comply.
+\fi
+
+\ifdefined\chs
+...........
+\fi
+
+\fi
+
+\ifdefined\vtwo
 \ifdefined\eng
 To facilitate portability, the developers of Unix had put an extra layer of abstraction between the software and the machine. Rather than writing it in the instructions of a specific machine type -- as the AI Lab hackers had done with ITS and the PDP-10 -- Unix developers wrote in a high-level language, called C. Focusing more on the interlocking interfaces and specifications that held the operating system's many subcomponents together, rather than the actual components themselves, they created a system that could be quickly modified to run on any machine. If a user disliked a certain component, the interface specifications made it possible to pull out an individual subcomponent and either fix it or replace it with something better. Simply put, the Unix approach promoted flexibility and economy, hence its rapid adoption.\endnote{See Marshall Kirk McKusick, ``Twenty Years of Berkeley Unix,'' \textit{Open Sources} (O'Reilly \& Associates, Inc., 1999): 38.}
 \fi
@@ -146,6 +195,7 @@ In 1982, the AI Lab received the replacement for its main computer, the PDP-10, 
   \caption{PDP-10与KL-10。图片拍摄地点为斯坦福大学人工智能实验室，摄于1979年。}
 \end{figure}
 \fi
+\fi
 
 \ifdefined\eng
 ``Without hackers to maintain the system, [faculty members] said, `We're going to have a disaster; we must have commercial software,'\hspace{0.01in}'' Stallman would recall a few years later. ``They said, `We can expect the company to maintain it.' It proved that they were utterly wrong, but that's what they did.''\endnote{\textit{Ibid.}}
@@ -156,7 +206,7 @@ In 1982, the AI Lab received the replacement for its main computer, the PDP-10, 
 \fi
 
 \ifdefined\eng
-At first, hackers viewed the Twenex system as yet another authoritarian symbol begging to be subverted. The system's name itself was a protest. Officially dubbed TOPS-20 by DEC, it was named as a successor to TOPS-10, a proprietary operating system DEC distributed for the PDP-10. But TOPS-20 was not based on TOPS-10.  It was derived from the Tenex system which Bolt Beranek Newman had developed for the PDP-10.\endnote{Multiple sources: see Richard Stallman interview, Gerald Sussman email, and \textit{Jargon File 3.0.0} at \url{http://catb.org/jargon/html/T/TWENEX.html}.} Stallman, the hacker who coined the Twenex term, says he came up with the name as a way to avoid using the TOPS-20 name. ``The system was far from tops, so there was no way I was going to call it that,'' Stallman recalls. ``So I decided to insert a `w' in the Tenex name and call it Twenex.''
+At first, hackers viewed the Twenex system as yet another authoritarian symbol begging to be subverted. The system's name itself was a protest. Officially dubbed TOPS-20 by DEC, it was \ifdefined\vtwo named\fi as a successor to TOPS-10, a \ifdefined\vone commerical\fi\ifdefined\vtwo proprietary\fi operating system DEC \ifdefined\vone marketed\fi\ifdefined\vtwo distributed\fi for the PDP-10. \ifdefined\vone Bolt Beranek Newman had deveoped an improved version, dubbed Tenex, which TOPS-20 drew upon.\endnote{Multiple sources: see Richard Stallman interview, Gerald Sussman email, and \textit{Jargon File 3.0.0} at \url{http://catb.org/jargon/html/T/TWENEX.html}.} Stallman, \fi\ifdefined\vtwo But TOPS-20 was not based on TOPS-10.  It was derived from the Tenex system which Bolt Beranek Newman had developed for the PDP-10.\endnote{Multiple sources: see Richard Stallman interview, Gerald Sussman email, and \textit{Jargon File 3.0.0} at \url{http://catb.org/jargon/html/T/TWENEX.html}.} Stallman, \fi the hacker who coined the Twenex term, says he came up with the name as a way to avoid using the TOPS-20 name. ``The system was far from tops, so there was no way I was going to call it that,'' Stallman recalls. ``So I decided to insert a `w' in the Tenex name and call it Twenex.''
 \fi
 
 \ifdefined\chs
@@ -179,12 +229,14 @@ If hackers laughed when they first encountered the KL-10, their laughter quickly
 黑客们当年第一次看到Decsystem的时候也许还会借机嘲笑两句，可很快他们就在Twenex面前笑不起来了。Twenex系统增进了系统的安全强度，而且Twenex上的软件也都考虑了各种安全措施。当年，黑客们试图避免设置任何密码和安全设施，那些行为就好像在和管理员玩猫捉老鼠的游戏。而如今，他们面对的，则是一场彻头彻尾的战斗了。系统管理员辩解说，如果没有这些安全设施，Oz系统就随时都会面临崩溃。而黑客们则辩解说，避免崩溃的最好办法，就是公开程序的源代码。遗憾的是，黑客人数上不占优，而且大多数黑客也逐渐失去了当年的那份果断。最终，系统管理员还是胜利了。
 \fi
 
+\ifdefined\vtwo
 \ifdefined\eng
 The initial policy was that any lab member could have the ``wheel privilege'' to bypass security restrictions.  But anyone who had the ``wheel privilege'' could take it away from anyone else, who would then be powerless to restore it.  This state of affairs tempted a small group of hackers to try to seize total control by canceling the ``wheel privilege'' for all but themselves.
 \fi
 
 \ifdefined\chs
 一开始的政策是，任何一个人工智能实验室的成员，都拥有一个``特权车服务''（wheel privilege），可以用来绕过系统的安全限制。可是，任何有``特权车''的人，都有权吊销别人的``特权车''。这样一来，就促使一小撮黑客总是尝试吊销其他人的特权，借此掌控全局。
+\fi
 \fi
 
 \ifdefined\eng
@@ -541,6 +593,26 @@ Looking back, Stallman says he didn't view the decision in strategic terms. ``I 
 如今回忆起来，斯托曼说，他决定为UNIX开发Emacs，并没从什么战略角度考虑。``我就是想在GNU系统里用Emacs。而且由我来开发它再合适不过了。''
 \fi
 
+\ifdefined\vone
+\ifdefined\eng
+Once again, the notion of reinventing the wheel grated on Stallman's efficient hacker sensibilities. In writing a Unix version of Emacs, Stallman was soon following the footsteps of Carnegie Mellon graduate student James Gosling, author of a C-based version dubbed Gosling Emacs or GOSMACS. Gosling's version of Emacs included an interpreter that exploited a simplified offshoot of the Lisp language called MOCKLISP. Determined to build GNU Emacs on a similar Lisp foundation, Stallman borrowed copiously from Gosling's innovations. Although Gosling had put GOSMACS under copyright and had sold the rights to UniPress, a privately held software company, Stallman cited the assurances of a fellow developer who had participated in the early MOCKLISP interpreter. According to the developer, Gosling, while a Ph.D. student at Carnegie Mellon, had assured early collaborators that their work would remain accessible. When UniPress caught wind of Stallman's project, however, the company threatened to enforce the copyright. Once again, Stallman faced the prospect of building from the ground up.
+\fi
+
+\ifdefined\chs
+又一次，作为一名黑客，斯托曼对于低效的敏感，帮助他避免了重新制造轮子。在开发UNIX版的Emacs的过程中，斯托曼很快找到了卡耐基·梅隆大学毕业的一位博士生詹姆斯·高斯林（James Gosling）\endnote{译注：詹姆斯·高斯林就是后来的Java之父。}。他用C语言开发了一款名为Gosling Emacs的编辑器，简称Gosmacs。它克隆了部分Emacs的功能，内建了一个简单的Lisp语言解释器，实现了简单的Lisp语法，并把这种Lisp方言成为Mocklisp。因为斯托曼也想在类似的Lisp平台上开发GNU Emacs，所以他希望能大量的参考高斯林的代码。尽管高斯林已经把Gosmacs卖给了一家名为UniPress的私人软件公司，但是高斯林在读博士期间，还曾通过邮件，授权给了一位参与过Gosmacs早期开发的人，让这位开发者可以独立发布Gosmacs。本着互助的精神，这位开发者将代码给了斯托曼，并担保可以自由使用。仅管如此，UniPress还是发现了斯托曼在他的项目中使用了Gosmacs的代码，并要求他能尊重版权。于是，斯托曼只好把从Gosmacs中参考的代码都从项目中去除，从头开发相关的功能。
+
+\fi
+
+\ifdefined\eng
+In the course of reverse-engineering Gosling's interpreter, Stallman would create a fully functional Lisp interpreter, rendering the need for Gosling's original interpreter moot. Nevertheless, the notion of developers selling off software rights-indeed, the very notion of developers having software rights to sell in the first place-rankled Stallman. In a 1986 speech at the Swedish Royal Technical Institute, Stallman cited the UniPress incident as yet another example of the dangers associated with proprietary software.
+\fi
+
+\ifdefined\chs
+通过对高斯林的解释器进行反向工程，斯托曼完成了一个完整的Lisp解释器，GNU Emacs不再依赖高斯林开发的解释器。但是，开发者出售软件版权的行为还是让斯托曼怨恨不已，即便开发者完全有权这么做。在1986年，斯托曼在瑞典皇家技术研究所的演讲中曾引用了这次与UniPress的纠纷，并把它作为典型案例，来说明专有软件的危害。
+\fi
+
+\fi
+\ifdefined\vtwo
 \ifdefined\eng
 Once again, Stallman had found existing code with which he hoped to save time. In writing a Unix version of Emacs, Stallman was soon following the footsteps of Carnegie Mellon graduate student James Gosling, author of a C-based version dubbed Gosling Emacs or Gosmacs. Gosling's version of Emacs included an interpreter for a simplified offshoot of the Lisp language, called Mocklisp. Although Gosling had put Gosmacs under copyright and had sold the rights to UniPress, a privately held software company, Stallman received the assurances of a fellow developer who had participated in early Gosmacs development. According to the developer, Gosling, while a Ph.D. student at Carnegie Mellon, had given him permission by email to distribute his own version of Gosmacs in exchange for his contribution to the code.
 \fi
@@ -572,7 +644,7 @@ Nevertheless, the notion of developers selling off software rights -- indeed, th
 \ifdefined\chs
 不过，这次的纠纷又让斯托曼对专有软件有了更多的思考。在1986年，斯托曼在瑞典皇家技术研究所的演讲中曾引用了这次与UniPress的纠纷，并把它作为典型案例，来说明专有软件的危害。
 \fi
-
+\fi
 \ifdefined\eng
 ``Sometimes I think that perhaps one of the best things I could do with my life is find a gigantic pile of proprietary software that was a trade secret, and start handing out copies on a street corner so it wouldn't be a trade secret any more,'' said Stallman. ``Perhaps that would be a much more efficient way for me to give people new free software than actually writing it myself; but everyone is too cowardly to even take it.''\endnote{See Richard Stallman (1986).}
 \fi
@@ -582,7 +654,7 @@ Nevertheless, the notion of developers selling off software rights -- indeed, th
 \fi
 
 \ifdefined\eng
-Despite the stress it generated, the dispute over Gosling's code would assist both Stallman and the free software movement in the long term. It would force Stallman to address the weaknesses of the Emacs Commune and the informal trust system that had allowed problematic offshoots to emerge. It would also force Stallman to sharpen the free software movement's political objectives. Following the release of GNU Emacs in 1985, Stallman issued \textit{The GNU Manifesto}, an expansion of the original announcement posted in September, 1983. Stallman included within the document a lengthy section devoted to the many arguments used by commercial and academic programmers to justify the proliferation of proprietary software programs. One argument, ``Don't programmers deserve a reward for their creativity,'' earned a response encapsulating Stallman's anger over the recent Gosling Emacs episode:
+Despite the stress it generated, the dispute over Gosling's \ifdefined\vone innovations\fi\ifdefined\vtwo code\fi would assist both Stallman and the free software movement in the long term. It would force Stallman to address the weaknesses of the Emacs Commune and the informal trust system that had allowed problematic offshoots to emerge. It would also force Stallman to sharpen the free software movement's political objectives. Following the release of GNU Emacs in 1985, Stallman issued \ifdefined\vone ``\textit{The GNU Manifesto}''\fi\ifdefined\vtwo \textit{The GNU Manifesto}\fi, an expansion of the original announcement posted in September, 1983. Stallman included within the document a lengthy section devoted to the many arguments used by commercial and academic programmers to justify the proliferation of proprietary software programs. One argument, ``Don't programmers deserve a reward for their creativity,'' earned a response encapsulating Stallman's anger over the recent Gosling Emacs episode:
 \fi
 
 \ifdefined\chs
@@ -598,7 +670,7 @@ Despite the stress it generated, the dispute over Gosling's code would assist bo
 \fi
 
 \ifdefined\eng
-With the release of GNU Emacs, the GNU Project finally had code to show. It also had the burdens of any software-based enterprise. As more and more Unix developers began playing with the software, money, gifts, and requests for tapes began to pour in. To address the business side of the GNU Project, Stallman drafted a few of his colleagues and formed the Free Software Foundation (FSF), a nonprofit organization dedicated to speeding the GNU Project towards its goal. With Stallman as president and various friends and hacker allies as board members, the FSF helped provide a corporate face for the GNU Project.
+With the release of GNU Emacs, the GNU Project finally had code to show. It also had the burdens of any software-based enterprise. As more and more Unix developers began playing with the software, money, gifts, and requests for tapes began to pour in. To address the business side of the GNU Project, Stallman drafted a few of his colleagues and formed the Free Software Foundation (FSF), a nonprofit organization dedicated to speeding the GNU Project towards its goal. With Stallman as president and various \ifdefined\vtwo friends and\fi hacker allies as board members, the FSF helped provide a corporate face for the GNU Project.
 \fi
 
 \ifdefined\chs
@@ -622,11 +694,11 @@ Robert Chassell, a programmer then working at Lisp Machines, Inc., became one of
 \fi
 
 \ifdefined\eng
-In addition to providing a face, the Free Software Foundation provided a center of gravity for other disenchanted programmers. The Unix market that had seemed so collegial even at the time of Stallman's initial GNU announcement was becoming increasingly competitive. In an attempt to tighten their hold on customers, companies were starting to deny users access to Unix source code, a trend that only speeded the number of inquiries into ongoing GNU software projects. The Unix wizards who once regarded Stallman as a noisy kook were now beginning to see him as a software prophet or a software Cassandra, according as they felt hope or despair over escaping the problems he identified.
+In addition to providing a face, the Free Software Foundation provided a center of gravity for other disenchanted programmers. The Unix market that had seemed so collegial even at the time of Stallman's initial GNU announcement was becoming increasingly competitive. In an attempt to tighten their hold on customers, companies were starting to \ifdefined\vone close off\fi\ifdefined\vtwo deny\fi users access to Unix source code, a trend that only speeded the number of inquiries into ongoing GNU software projects. The Unix wizards who once regarded Stallman as a noisy kook were now beginning to see him as a software \ifdefined\vone Cassandra\fi\ifdefined\vtwo prophet or a software Cassandra, according as they felt hope or despair over escaping the problems he identified\fi.
 \fi
 
 \ifdefined\chs
-除了提供一个门面以外，自由软件基金会还吸引了很多抱有类似理想的程序员。UNIX市场融入了越来越多的竞争者，斯托曼的GNU工程也逐渐占有了一席之地。UNIX厂商们为了能栓住用户，它们开始拒绝为用户提供UNIX的源代码。不过这个行为最终倒让GNU获得了更多的用户。UNIX界的人士曾一度把斯托曼视为不切实际的疯子。如今则有不少人把他看作软件界的预言家。因为有越来越多的人，遇到了斯托曼描述的那些专有软件的问题。
+除了提供一个门面以外，自由软件基金会还吸引了很多抱有类似理想的程序员。UNIX市场融入了越来越多的竞争者，斯托曼的GNU工程也逐渐占有了一席之地。UNIX厂商们为了能栓住用户，它们开始拒绝为用户提供UNIX的源代码。不过这个行为最终倒让GNU获得了更多的用户。UNIX界的人士曾一度把斯托曼视为不切实际的疯子。如今则有不少人把他看作软件界的预言家。\ifdefined\vtwo 因为有越来越多的人，遇到了斯托曼描述的那些专有软件的问题。\fi
 \fi
 
 \ifdefined\eng
@@ -646,7 +718,7 @@ For Chassell, the decision to participate in the Free Software Foundation came d
 \fi
 
 \ifdefined\eng
-``As far as I know, that book is still sitting on a shelf somewhere, unusable, uncopyable, just taken out of the system,'' Chassell says. ``It was quite a good introduction if I may say so myself. It would have taken maybe three or four months to convert [the book] into a perfectly usable introduction to GNU/Linux today. The whole experience, aside from what I have in my memory, was lost.''
+``As far as I know, that book is still sitting on \ifdefined\vtwo a\fi shelf somewhere, unusable, uncopyable, just taken out of the system,'' Chassell says. ``It was quite a good introduction if I may say so myself. It would have taken maybe three or four months to convert [the book] into a perfectly usable introduction to GNU/Linux today. The whole experience, aside from what I have in my memory, was lost.''
 \fi
 
 \ifdefined\chs

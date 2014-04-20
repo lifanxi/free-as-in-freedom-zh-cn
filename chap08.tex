@@ -38,11 +38,11 @@ Simply put, the MHPCC is a unique place, a place where the brainy culture of sci
 \fi
 
 \ifdefined\eng
-It's not exactly the kind of place you'd expect to find Richard Stallman, a man who, when taking in the beautiful view of the nearby Maui Channel through the picture windows of a staffer's office, mutters a terse critique: ``Too much sun.'' Still, as an emissary from one computing paradise to another, Stallman has a message to deliver, even if it means subjecting his hacker eyes to painful solar glare.
+It's not exactly the kind of place you'd expect to find Richard Stallman, a man who, when taking in the beautiful view of the nearby Maui Channel through the picture windows of a staffer's office, mutters a terse critique: ``Too much sun.'' Still, as an emissary from one computing paradise to another, Stallman has a message to deliver, even if it means subjecting his pale hacker skin to the hazards of tropical exposure.
 \fi
 
 \ifdefined\chs
-这样一个地方，一般你是见不到理查德·斯托曼身影的。他这次来到这里，站在一位员工办公室的窗口，盯着外面如画的风景，口中却蹦出了一句简单的批评：``阳光太强。''自然，他从计算机界的圣地麻省理工学院来到这里，是有话要讲的。哪怕再强的阳光，刺入这位黑客的双眼，他倒也在所不辞。
+这样一个地方，一般你是见不到理查德·斯托曼身影的。他这次来到这里，站在一位员工办公室的窗口，盯着外面如画的风景，口中却蹦出了一句简单的批评：``阳光太强。''自然，他从计算机界的圣地麻省理工学院来到这里，是有话要讲的。哪怕再强的阳光，暴晒着这位黑客的苍白的皮肤，他也在所不辞。
 \fi
 
 \ifdefined\eng
@@ -78,7 +78,7 @@ The analogy to the Grateful Dead is apt. Often, when describing the business opp
 \fi
 
 \ifdefined\eng
-While few software companies have been able to match that success, the tribal aspect of the free software community is one reason many in the latter half of the 1990s started to accept the notion that publishing software source code might be a good thing. Hoping to build their own loyal followings, companies such as IBM, Sun Microsystems, and Hewlett Packard have come to accept the letter, if not the spirit, of the Stallman free software message. Describing the GPL as the information-technology industry's \textit{Magna Carta}, ZDNet software columnist Evan Leibovitch sees the growing affection for all things GNU as more than just a trend. ``This societal shift is letting users take back control of their futures,'' Leibovitch writes. ``Just as the \textit{Magna Carta} gave rights to British subjects, the GPL enforces consumer rights and freedoms on behalf of the users of computer software.''\endnote{See Evan Leibovitch, ``Who's Afraid of Big Bad Wolves,'' \textit{ZDNet Tech Update} (December 15, 2000), \url{http://www.zdnet.com/news/whos-afraid-of-the-big-bad-wolves/298394}.}
+While few software companies have been able to match that success, the tribal aspect of the free software community is one reason many in the latter half of the 1990s started to accept the notion that publishing software source code might be a good thing. Hoping to build their own loyal followings, companies such as IBM, Sun Microsystems, and Hewlett Packard have come to accept the letter, if not the spirit, of the Stallman free software message. Describing the GPL as the information-technology industry's ``\textit{Magna Carta},'' ZDNet software columnist Evan Leibovitch sees the growing affection for all things GNU as more than just a trend. ``This societal shift is letting users take back control of their futures,'' Leibovitch writes. ``Just as the \textit{Magna Carta} gave rights to British subjects, the GPL enforces consumer rights and freedoms on behalf of the users of computer software.''\endnote{See Evan Leibovitch, ``Who's Afraid of Big Bad Wolves,'' \textit{ZDNet Tech Update} (December 15, 2000), \url{http://www.zdnet.com/news/whos-afraid-of-the-big-bad-wolves/298394}.}
 \fi
 
 \ifdefined\chs
@@ -121,10 +121,18 @@ Once again, Stallman quickly segues into the parable of the Xerox laser printer,
 ``Some people say to me, `Why make such a fuss about getting credit for this system? After all, the important thing is the job is done, not whether you get recognition for it.' Well, this would be wise advice if it were true. But the job wasn't to build an operating system; the job is to spread freedom to the users of computers. And to do that we have to make it possible to do everything with computers in freedom.''\endnote{For narrative purposes, I have hesitated to go in-depth when describing Stallman's full definition of software ``freedom.'' The GNU Project web site lists four fundamental components:
 
 \begin{itemize}
+\ifdefined\vone
+  \item The freedom to run a program, for any purpose (freedom 0). 
+  \item The freedom to study how a program works, and adapt it to your needs (freedom 1). 
+  \item The freedom to redistribute copies of a program so you can help your neighbor (freedom 2). 
+  \item The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3). 
+\fi
+\ifdefined\vtwo
   \item The freedom to run the program as you wish, for any purpose (freedom 0).
   \item The freedom to study the program's source code, and change it so that the program does what you wish (freedom 1).
   \item The freedom to redistribute copies of the program so you can help your neighbor (freedom 2).
   \item The freedom to distribute copies of your modified versions, so that the whole community can benefit from them (freedom 3).
+\fi
 \end{itemize}
 
 For more information, please visit ``The Free Software Definition'' at \url{http://www.gnu.org/philosophy/free-sw.html}.}
@@ -204,6 +212,7 @@ The speech ends with a brief discussion of software patents, a growing issue of 
 \fi
 \fi
 
+\ifdefined\vtwo
 \ifdefined\eng
 Software patents work differently. According to the U.S. Patent Office, companies and individuals can obtain patents for computing ideas that are innovative (or, at least, unknown to the Patent Office). In theory, this allows the patent-holder to trade off disclosure of the technique for a specific monopoly lasting a minimum of 20 years after the patent filing. In practice, the disclosure is of limited value to the public, since the operation of the program is often self-evident, and could in any case be determined by reverse engineering. Unlike copyright, a patent gives its holder the power to forbid the independent development of software programs which use the patented idea.
 \fi
@@ -211,7 +220,20 @@ Software patents work differently. According to the U.S. Patent Office, companie
 \ifdefined\chs
 可软件专利就不同了。按照美国专利局的说法，个人或公司的计算方面的创新想法，可以获得专利（准确说，所谓创新想法，也就是专利局没听说过的想法）。理论上讲，专利拥有者需要将自己的创新想法公之于众，作为交换，专利拥有者获得法律保护，可以在二十年内，禁止他人实现这个想法，计时从专利提交起开始。当年专利法设立的初衷是为了避免优秀的想法被当作商业机密封锁在公司内部，不被大众所用。但是实际上，到了软件领域，这个事情就变了样。软件专利的创新想法并不能怎么让公众受益。因为大多数软件专利中提到想法往往是不言自明的。或者可以通过合法的逆向工程获得。而专利法和版权法不同，它禁止任何人实现专利上描述的想法，哪怕开发者是独立开发的。
 \fi
+\fi
 
+\ifdefined\vone
+\ifdefined\eng
+Software patents work differently. According to the U.S. Patent Office, companies and individuals may secure patents for innovative algorithms provided they submit their claims to a public review. In theory, this allows the patent-holder to trade off disclosure of their invention for a limited monopoly of a minimum of 20 years after the patent filing. In practice, the disclosure is of limited value, since the operation of the program is often self-evident. Unlike copyright, a patent gives its holder the ability to head off the independent development of software programs with the same or similar functionality.
+\fi
+
+\ifdefined\chs
+可软件专利就不同了。按照美国专利局的说法，个人或公司的算法方面有创新想法，就可以提交专利申请，由公众来审核。理论上讲，专利拥有者需要将自己的发明公之于众，作为交换，专利拥有者获得法律保护，可以在二十年内，禁止他人实现这个想法，计时从专利提交起开始。当年专利法设立的初衷是为了避免优秀的想法被当作商业机密封锁在公司内部，不被大众所用。但是实际上，到了软件领域，这个事情就变了样。软件专利的创新想法并不能怎么让公众受益。因为大多数软件专利中提到想法往往是不言自明的。而专利法和版权法不同，它禁止任何人实现专利上描述的想法，哪怕开发者是独立开发的。
+\fi
+\fi
+
+
+\ifdefined\vtwo
 \ifdefined\eng
 In the software industry, where 20 years can cover the entire life cycle of a marketplace, patents take on a strategic weight. Where companies such as Microsoft and Apple once battled over copyright and the ``look and feel'' of various technologies, today's Internet companies use patents as a way to stake out individual applications and business models, the most notorious example being Amazon.com's 2000 attempt to patent the company's ``one-click'' online shopping process. For most companies, however, software patents have become a defensive tool, with cross-licensing deals balancing one set of corporate patents against another in a tense form of corporate detente. Still, in a few notable cases of computer encryption and graphic imaging algorithms, software vendors have successfully stifled rival developments.  For instance, some font-rendering features are missing from free software because of patent threats from Apple.
 \fi
@@ -219,13 +241,36 @@ In the software industry, where 20 years can cover the entire life cycle of a ma
 \ifdefined\chs
 在软件世界里，二十年的时间可能覆盖了一个市场的整个生命周期。这样，专利就成了一种策略。当年，微软和苹果这些大公司为版权打得不可开交。而如今那些互联网企业，则使用专利来为自己开路，赶走竞争对手和新人。这里有个著名的案例。2000年，亚马逊购物曾试图为它的``一键购买''功能注册专利。简单说，这个功能就是允许用户事先存储好个人信息——比如信用卡信息，收件人地址等——然后在购买商品的时候，只需要按一个按钮，就可以下单，不必再跳转到其他页面填写地址，付款等信息。对于大多数公司来说，软件专利更像是一种防卫措施。几个公司可能会合作共有一系列专利，用来阻止另外一个联盟的专利。尽管如此，还是有不少领域被软件专利占满，阻碍了各种可能的竞争对手。比如图像处理领域，加密领域等等。比较实际的例子是，一些字体渲染算法，不会出现在自由软件中，因为苹果公司持有这些算法的专利。
 \fi
+\fi
 
+\ifdefined\vone
+\ifdefined\eng
+In the software industry, where 20 years can cover the entire life cycle of a marketplace, patents take on a strategic weight. Where companies such as Microsoft and Apple once battled over copyright and the ``look and feel'' of various technologies, today's Internet companies use patents as a way to stake out individual applications and business models, the most notorious example being Amazon.com's 2000 attempt to patent the company's ``one-click'' online shopping process. For most companies, however, software patents have become a defensive tool, with cross-licensing deals balancing one set of corporate patents against another in a tense form of corporate detente. Still, in a few notable cases of computer encryption and graphic imaging algorithms, software vendors have successfully stifled rival technologies.
+\fi
+
+\ifdefined\chs
+在软件世界里，二十年的时间可能覆盖了一个市场的整个生命周期。这样，专利就成了一种策略。当年，微软和苹果这些大公司为版权打得不可开交。而如今那些互联网企业，则使用专利来为自己开路，赶走竞争对手和新人。这里有个著名的案例。2000年，亚马逊购物曾试图为它的``一键购买''功能注册专利。简单说，这个功能就是允许用户事先存储好个人信息——比如信用卡信息，收件人地址等——然后在购买商品的时候，只需要按一个按钮，就可以下单，不必再跳转到其他页面填写地址，付款等信息。对于大多数公司来说，软件专利更像是一种防卫措施。几个公司可能会合作共有一系列专利，用来阻止另外一个联盟的专利。尽管如此，还是有不少领域被软件专利占满，阻碍了各种可能的竞争对手。比如图像处理领域，加密领域等等。
+\fi
+\fi
+
+\ifdefined\vtwo
 \ifdefined\eng
 For Stallman, the software-patent issue dramatizes the need for eternal hacker vigilance. It also underlines the importance of stressing the political benefits of free software programs over the competitive benefits. Stallman says competitive performance and price, two areas where free software operating systems such as GNU/Linux and FreeBSD already hold a distinct advantage over their proprietary counterparts, are side issues compared to the large issues of user and developer freedom.
 \fi
 
 \ifdefined\chs
-对于斯托曼来说，软件专利更督促着黑客要时刻警觉，而且还凭添了几分戏剧色彩。也恰恰是软件专利，让自由软件一直强调的政治策略再次得以重申。即，用户的自由比其他东西更重要。斯托曼说，高性能，低价格等特性的确是GNU/Linux，FreeBSD等这些自由软件的优势。但是除了性能，价格这些东西以外，还有更重大的问题，那就是用户和开发者的自由。
+对于斯托曼来说，软件专利更督促着黑客要时刻警觉，而且还凭添了几分戏剧色彩。也恰恰是软件专利，让自由软件一直强调的政治策略再次得以重申。即，用户的自由比其他东西更重要。斯托曼说，高性能、低价格等特性的确是GNU/Linux、FreeBSD等这些自由软件的优势。但是除了性能，价格这些东西以外，还有更重大的问题，那就是用户和开发者的自由。
+\fi
+\fi
+
+\ifdefined\vone
+\ifdefined\eng
+For Stallman, the software-patent issue dramatizes the need for eternal hacker vigilance. It also underlines the importance of stressing the political benefits of free software programs over the competitive benefits. Pointing to software patents' ability to create sheltered regions in the marketplace, Stallman says competitive performance and price, two areas where free software operating systems such as GNU/Linux and FreeBSD already hold a distinct advantage over their proprietary counterparts, are red herrings compared to the large issues of user and developer freedom.
+\fi
+
+\ifdefined\chs
+对于斯托曼来说，软件专利更督促着黑客要时刻警觉，而且还凭添了几分戏剧色彩。也恰恰是软件专利，让自由软件一直强调的政治策略再次得以重申。即，用户的自由比其他东西更重要。斯托曼说，软件专利所可能造成市场的垄断，高性能、低价格等特性的确是GNU/Linux、FreeBSD等这些自由软件的优势。但是除了性能，价格这些东西以外，还有更重大的问题，那就是用户和开发者的自由。
+\fi
 \fi
 
 \ifdefined\vtwo
@@ -258,12 +303,24 @@ Such comments involve a hefty dose of spin, of course. Most open source advocate
 
 \fi
 
+\ifdefined\vtwo
 \ifdefined\eng
 That's not to say the term ``open source'' doesn't have its political implications. For open source advocates, the term open source serves two purposes. First, it eliminates the confusion associated with the word ``free,'' a word many businesses interpret as meaning ``zero cost.'' Second, it allows companies to examine the free software phenomenon on a technological, rather than ethical, basis. Eric Raymond, cofounder of the Open Source Initiative and one of the leading hackers to endorse the term, explained his refusal to follow Stallman's political path in a 1999 essay, titled ``Shut Up and Show Them the Code'':
 \fi
 
 \ifdefined\chs
 但是，``开源''一词也并非意味着没有任何政治诉求。对于开源支持者来说，开源有着两重含义。第一，它避免了在英文中使用Free一词。自由软件的英文是Free Software，因为Free在英文中既有自由的意思，也有免费的意项，所以难免会产生歧义。很多商业公司会觉得自由软件等于免费软件。使用``开源''一词的动机之一，就是希望消除这种歧义。第二，它让商业公司可以从技术角度去审视自由软件，而不必在道义上过多解读。艾瑞克·雷蒙德（Eric Raymond）是开放源代码促进会（Open Source Initiative，缩写：OSI）的联合创始人之一，也是支持使用``开源''一词的著名黑客。他曾在1999年发表了一篇文章，用以表明他拒绝接受斯托曼的政治路线。文章标题是《少说话，秀代码》（Shut Up and Show Them the Code）：
+\fi
+\fi
+
+\ifdefined\vone
+\ifdefined\eng
+That's not to say the term ``open source'' doesn't have its political implications. For open source advocates, the term open source serves two purposes. First, it eliminates the confusion associated with the word ``free,'' a word many businesses interpret as meaning ``zero cost.'' Second, it allows companies to examine the free software phenomenon on a technological, rather than ethical, basis. Eric Raymond, cofounder of the Open Source Initiative and one of the leading hackers to endorse the term, effectively summed up the frustration of following Stallman down the political path in a 1999 essay, titled `` Shut Up and Show Them the Code'':
+\fi
+
+\ifdefined\chs
+但是，``开源''一词也并非意味着没有任何政治诉求。对于开源支持者来说，开源有着两重含义。第一，它避免了在英文中使用Free一词。自由软件的英文是Free Software，因为Free在英文中既有自由的意思，也有免费的意项，所以难免会产生歧义。很多商业公司会觉得自由软件等于免费软件。使用``开源''一词的动机之一，就是希望消除这种歧义。第二，它让商业公司可以从技术角度去审视自由软件，而不必在道义上过多解读。埃里克·雷蒙德（Eric Raymond）是开放源代码促进会（Open Source Initiative，缩写：OSI）的联合创始人之一，也是支持使用``开源''一词的著名黑客。他曾在1999年发表了一篇文章，用以表明他对遵循斯托曼的政治路线的失望。文章标题是《少说话，秀代码》（Shut Up and Show Them the Code）：
+\fi
 \fi
 
 \ifdefined\eng
@@ -355,13 +412,14 @@ Most open source advocates are equally, if not more, vociferous as Stallman when
 \fi
 
 \ifdefined\eng
-Watching Stallman deliver his political message in person, it is hard to see anything confusing or repellent. Stallman's appearance may seem off-putting, but his message is logical. When an audience member asks if, in shunning proprietary software, free software proponents lose the ability to keep up with the latest technological advancements, Stallman answers the question in terms of his own personal beliefs. ``I think that freedom is more important than mere technical advance,'' he says. ``I would always choose a less advanced free program rather than a more advanced nonfree program, because I won't give up my freedom for something like that [advance]. My rule is, if I can't share it with you, I won't take it.''
+Watching Stallman deliver his political message in person, it is hard to see anything confusing or repellent. Stallman's appearance may seem off-putting, but his message is logical. When an audience member asks if, in shunning proprietary software, free software proponents lose the ability to keep up with the latest technological advancements, Stallman answers the question in terms of his own personal beliefs. ``I think that freedom is more important than mere technical advance,'' he says. ``I would always choose a less advanced free program rather than a more advanced nonfree program, because I won't give up my freedom for something like that. My rule is, if I can't share it with you, I won't take it.''
 \fi
 
 \ifdefined\chs
 看着斯托曼阐述自己的政治诉求，并不会让人迷惑或厌恶。他衣着朴素，说起话来有理有据，逻辑清晰。听众中一位提问：如果完全避免使用专有软件，可能无法用到最新的技术，该怎么办？斯托曼引述自己的信念，回答了这个问题：``我觉得自由本身比任何新近技术都重要。如果面前有一个先进的专有软件，和一个技术落后的自由软件，那么我宁愿选择后者。因为无论如何，我都不会靠出卖自由，而换取更新的技术。我的原则是，如果我不能和你分享这个软件，我就不会使用它。''
 \fi
 
+\ifdefined\vtwo
 \ifdefined\eng
 In the minds of those who assume ethics means religion, such answers reinforce the quasi-religious nature of the Stallman message. However, unlike a Jew keeping kosher or a Mormon refusing to drink alcohol, Stallman is not obeying a commandment, but simply refusing to cede his freedom.  His speech explains the practical requisites for doing so: a proprietary program takes away your freedom, so if you want freedom, you need to reject the program.
 \fi
@@ -378,6 +436,8 @@ Stallman paints his decision to use free software in place of proprietary in the
 斯托曼仅仅使用自由软件，拒绝任何专有软件。他把这描述为个人信仰，并且希望把这份信仰与大家一同分享。但他不会强迫别人认同自己。大多数听众，在听过斯托曼的演讲之后，都会明白斯托曼所说的正确的软件之路。
 \fi
 
+\fi
+
 \ifdefined\vone
 
 \ifdefined\eng
@@ -391,7 +451,14 @@ Such answers, however, reinforce the quasi-religious nature of the Stallman mess
 \fi
 
 \ifdefined\eng
-As if to drive home this message, Stallman punctuates his speech with an unusual ritual. Pulling a black robe out of a plastic grocery bag, Stallman puts it on.  Then he pulls out a reflective brown computer disk and places it on his head. The crowd lets out a startled laugh.
+As if to drive home this message, Stallman punctuates his speech with an unusual ritual. Pulling a black robe out of a plastic grocery bag, Stallman puts it on.  
+\ifdefined\vone
+Out of a second bag, he pulls a reflective yellow computer disk and places it on his head. 
+\fi
+\ifdefined\vtwo
+Then he pulls out a reflective brown computer disk and places it on his head. 
+\fi
+The crowd lets out a startled laugh.
 \fi
 
 \ifdefined\chs
@@ -403,25 +470,42 @@ As if to drive home this message, Stallman punctuates his speech with an unusual
 \fi
 
 \ifdefined\chs
-``我是圣·IGNUcius\endnote{圣·IGNUcius（St. IGNUcius），名字中包含了GNU三个字母。这个名字可能来自基督教圣人伊格那丢（St. Ignatius）。伊格那丢被罗马皇帝投入野兽笼中而死。斯托曼的圣·IGNUcius本身并没有任何宗教意义（斯托曼本人是无神论者），仅仅出于玩笑心理，起了这么个名字：既能在字面上和基督教圣徒有些类似，又能把GNU三个字母放进名字里。}，来自Emacs教堂。''斯托曼举起右手，好似在为众人祈福：``我保佑你的计算机，孩子们。''
+``我是圣·IGNUcius\endnote{译注：圣·IGNUcius（St. IGNUcius），名字中包含了GNU三个字母。这个名字可能来自基督教圣人伊格那丢（St. Ignatius）。伊格那丢被罗马皇帝投入野兽笼中而死。斯托曼的圣·IGNUcius本身并没有任何宗教意义（斯托曼本人是无神论者），仅仅出于玩笑心理，起了这么个名字：既能在字面上和基督教圣徒有些类似，又能把GNU三个字母放进名字里。}，来自Emacs教堂。''斯托曼举起右手，好似在为众人祈福：``我保佑你的计算机，孩子们。''
 \fi
 
 \ifdefined\eng
 \begin{figure}[ht] \centering
   \includegraphics{stignucius}
+  \ifdefined\vone
+  \caption{Stallman dressed as St. IGNUcius. Photo by Wouter van Oortmerssen.}
+  \fi
+  \ifdefined\vtwo
   \caption{Stallman dressed as St. IGNUcius. The photo was taken by Stian Eikeland in Bergen, Norway on February 19, 2009.}
+  \fi
 \end{figure}
 \fi
 
 \ifdefined\chs
 \begin{figure}[ht] \centering
   \includegraphics{stignucius}
-  \caption{斯托曼打扮成圣·IGNUcius。照片由于Stian Eikeland拍摄，摄于2009年2月19日，挪威的卑而根市。}
+  \ifdefined\vone
+  \caption{斯托曼打扮成圣·IGNUcius。照片由Wouter van Oortmerssen拍摄。}
+  \fi
+  \ifdefined\vtwo
+  \caption{斯托曼打扮成圣·IGNUcius。照片由Stian Eikeland拍摄，摄于2009年2月19日，挪威的卑而根市。}
+  \fi
+
 \end{figure}
 \fi
 
 \ifdefined\eng
-The laughter turns into full-blown applause after a few seconds. As audience members clap, the computer disk on Stallman's head catches the glare of an overhead light, eliciting a perfect halo effect. In the blink of an eye, Stallman resembles a Russian religious icon.
+The laughter turns into full-blown applause after a few seconds. As audience members clap, the computer disk on Stallman's head catches the glare of an overhead light, eliciting a perfect halo effect. In the blink of an eye, 
+\ifdefined\vone
+Stallman goes from awkward haole to Russian religious icon.
+\fi
+\ifdefined\vtwo
+Stallman resembles a Russian religious icon.
+\fi
 \fi
 
 \ifdefined\chs
@@ -437,7 +521,7 @@ The laughter turns into full-blown applause after a few seconds. As audience mem
 \fi
 
 \ifdefined\eng
-The skit is a lighthearted moment of self-parody, a humorous return-jab at the many people who might see Stallman's form of software asceticism as religious fanaticism in disguise. It is also the sound of the other shoe dropping -- loudly. It's as if, in donning his robe and halo, Stallman is finally letting listeners off the hook, saying, ``It's OK to laugh. I know I'm weird.''  [RMS: To laugh at someone for being weird is boorish, and it is not my intention to excuse that.  But I hope people will laugh at my St. IGNUcius comedy routine.]
+The skit is a lighthearted moment of \ifdefined\vone self-pardoy\fi\ifdefined\vtwo self-parody\fi, a humorous return-jab at the many people who might see Stallman's form of software asceticism as religious fanaticism in disguise. It is also the sound of the other shoe dropping -- loudly. It's as if, in donning his robe and halo, Stallman is finally letting listeners \ifdefined\vone of \fi\ifdefined\vtwo off \fi the hook, saying, ``It's OK to laugh. I know I'm weird.''  \ifdefined\vtwo[RMS: To laugh at someone for being weird is boorish, and it is not my intention to excuse that.  But I hope people will laugh at my St. IGNUcius comedy routine.]\fi
 \fi
 
 \ifdefined\chs
@@ -473,7 +557,7 @@ Stallman takes issue with the Raymond analysis. ``It's simply my way of making f
 \fi
 
 \ifdefined\eng
-That said, Stallman does admit to being a ham. ``Are you kidding?'' he says at one point. ``I love being the center of attention.'' To facilitate that process, Stallman says he once enrolled in Toastmasters, an organization that helps members bolster their public-speaking skills and one Stallman recommends highly to others. He possesses a stage presence that would be the envy of most theatrical performers and feels a link to vaudevillians of years past. A few days after the Maui High Performance Computing Center speech, I allude to the 1999 LinuxWorld performance and ask Stallman if he has a Groucho Marx complex -- i.e., the unwillingness to belong to any club that would have him as a member.\endnote{RMS: Williams misinterprets Groucho's famous remark by treating it as psychological.  It was intended as a jab at the overt antisemitism of many clubs, which was why they would refuse him as a member.  I did not understand this either until my mother explained it to me.  Williams and I grew up when bigotry had gone underground, and there was no need to veil criticism of bigotry in humor as Groucho did.} Stallman's response is immediate: ``No, but I admire Groucho Marx in a lot of ways and certainly have been in some things I say inspired by him. But then I've also been inspired in some ways by Harpo.''
+That said, Stallman does admit to being a ham. ``Are you kidding?'' he says at one point. ``I love being the center of attention.'' To facilitate that process, Stallman says he once enrolled in Toastmasters, an organization that helps members bolster their public-speaking skills and one Stallman recommends highly to others. He possesses a stage presence that would be the envy of most theatrical performers and feels a link to vaudevillians of years past. A few days after the Maui High Performance Computing Center speech, I allude to the 1999 LinuxWorld \ifdefined\vone performace\fi\ifdefined\vtwo performance\fi and ask Stallman if he has a Groucho Marx complex -- i.e., the unwillingness to belong to any club that would have him as a member.\ifdefined\vtwo\endnote{RMS: Williams misinterprets Groucho's famous remark by treating it as psychological.  It was intended as a jab at the overt antisemitism of many clubs, which was why they would refuse him as a member.  I did not understand this either until my mother explained it to me.  Williams and I grew up when bigotry had gone underground, and there was no need to veil criticism of bigotry in humor as Groucho did.}\fi Stallman's response is immediate: ``No, but I admire Groucho Marx in a lot of ways and certainly have been in some things I say inspired by him. But then I've also been inspired in some ways by Harpo.''
 \fi
 
 \ifdefined\chs
@@ -489,7 +573,7 @@ The Groucho Marx influence is certainly evident in Stallman's lifelong fondness 
 \fi
 
 \ifdefined\eng
-Watching members of the Maui High Performance Computer Center laugh at the St. IGNUcius parody, such concerns evaporate. While not exactly a standup act, Stallman certainly possesses the chops to keep a roomful of engineers in stitches. ``To be a saint in the Church of Emacs does not require celibacy, but it does require making a commitment to living a life of moral purity,'' he tells the Maui audience. ``You must exorcise the evil proprietary operating systems from all your computers, and then install a wholly [holy] free operating system. And then you must install only free software on top of that. If you make this commitment and live by it, then you too will be a saint in the Church of Emacs, and you too may have a halo.''
+Watching members of the Maui High Performance Computer Center laugh at the St. IGNUcius parody, such concerns evaporate. While not exactly a standup act, Stallman certainly possesses the chops to keep a roomful of engineers in stitches. ``To be a saint in the Church of Emacs does not require celibacy, but it does require making a commitment to living a life of moral purity,'' he tells the Maui audience. ``You must exorcise the evil proprietary operating \ifdefined\vone system\fi\ifdefined\vtwo systems\fi from all your \ifdefined\vone computer\fi\ifdefined\vtwo computers,\fi and then install a wholly [holy] free operating system. And then you must install only free software on top of that. If you make this commitment and live by it, then you too will be a saint in the Church of Emacs, and you too may have a halo.''
 \fi
 
 \ifdefined\chs
@@ -497,7 +581,7 @@ Watching members of the Maui High Performance Computer Center laugh at the St. I
 \fi
 
 \ifdefined\eng
-The St. IGNUcius skit ends with a brief inside joke. On most Unix systems and Unix-related offshoots, the primary competitor program to Emacs is vi, pronounced vee-eye, a text-editing program developed by former UC Berkeley student and current Sun Microsystems chief scientist, Bill Joy. Before doffing his ``halo,'' Stallman pokes fun at the rival program. ``People sometimes ask me if it is a sin in the Church of Emacs to use vi,'' he says. ``Using a free version of vi is not a sin; it is a penance. So happy hacking.''\endnote{The service of the Church of Emacs has developed further since 2001. Users can now join the Church by reciting the Confession of the Faith: ``There is no system but GNU, and Linux is one of its kernels.'' Stallman sometimes mentions the religious ceremony known as the Foobar Mitzvah, the Great Schism between various rival versions of Emacs, and the cult of the Virgin of Emacs (which refers to any person that has not yet learned to use Emacs).  In addition, ``vi vi vi'' has been identified as the Editor of the Beast.}
+The St. IGNUcius skit ends with a brief inside joke. On most Unix systems and Unix-related offshoots, the primary competitor program to Emacs is vi,\ifdefined\vtwo pronounced vee-eye, \fi a text-editing program developed by former UC Berkeley student and current Sun Microsystems chief scientist, Bill Joy. Before doffing his ``halo,'' Stallman pokes fun at the rival program. ``People sometimes ask me if it is a sin in the Church of Emacs to use vi,'' he says. ``Using a free version of vi is not a sin; it is a penance. So happy hacking.''\ifdefined\vtwo\endnote{The service of the Church of Emacs has developed further since 2001. Users can now join the Church by reciting the Confession of the Faith: ``There is no system but GNU, and Linux is one of its kernels.'' Stallman sometimes mentions the religious ceremony known as the Foobar Mitzvah, the Great Schism between various rival versions of Emacs, and the cult of the Virgin of Emacs (which refers to any person that has not yet learned to use Emacs).  In addition, ``vi vi vi'' has been identified as the Editor of the Beast.}\fi
 \fi
 
 \ifdefined\chs
@@ -505,7 +589,7 @@ The St. IGNUcius skit ends with a brief inside joke. On most Unix systems and Un
 \fi
 
 \ifdefined\eng
-After a brief question-and-answer session, audience members gather around Stallman. A few ask for autographs. ``I'll sign this,'' says Stallman, holding up one woman's print out of the GNU General Public License, ``but only if you promise me to use the term GNU/Linux instead of Linux'' (when referring to the system), ``and tell all your friends to do likewise.''
+After a brief question-and-answer session, audience members gather around Stallman. A few ask for autographs. ``I'll sign this,'' says Stallman, holding up one woman's print out of the GNU General Public License, ``but only if you promise me to use the term GNU/Linux instead of Linux\ifdefined\vtwo '' (when referring to the system), ``\fi and tell all your friends to do likewise.''
 \fi
 
 \ifdefined\chs
@@ -529,11 +613,11 @@ During the question-and-answer session, Stallman admits to playing the pedagogue
 \fi
 
 \ifdefined\eng
-The result, Stallman says, is something akin to a third-world city. ``You have millions of people moving in and building shantytowns, but nobody's working on step two: getting them out of those shantytowns. If you think talking about software freedom is a good strategy, please join in doing step two. There are plenty working on step one. We need more people working on step two.''
+The result, Stallman says, is something akin to a third-world city.\ifdefined\vone People move in, hoping to strike it rich or at the very least to take part in a vibrant, open culture, and yet those who hold the true power keep evolving new tricks and strategies-i.e., software patents-to keep the masses out.\fi ``You have millions of people moving in and building shantytowns, but nobody's working on step two: getting them out of those shantytowns. If you think talking about software freedom is a good strategy, please join in doing step two. There are plenty working on step one. We need more people working on step two.''
 \fi
 
 \ifdefined\chs
-最后的结果，用斯托曼的话说，就是好比很多第三世界国家建立的城市。``你把百万千万的人扔到城市中，结果是在城市里建起了成千上万的城中村，贫民窟。但是没人开始着手做下一步的工作：把城中村，贫民窟里的人解救出来。如果你觉得讨论软件用户的自由是有意义的，那么请加入我们，开始做第二步工作。很多人都在做第一步，但这第二步却无人问津。''
+最后的结果，用斯托曼的话说，就是好比很多第三世界国家建立的城市。\ifdefined\vone 人们怀揣梦想从四面八方涌入城市，希望能让自己的生活变得更加富裕，或者至少能融入到这个充满活力和开放文化的社会，但是那些真正有权有势的人则通过制定各种新的方针政策来玩弄老百姓。软件专利就是一个很好的例子。\fi ``你把百万千万的人扔到城市中，结果是在城市里建起了成千上万的城中村，贫民窟。但是没人开始着手做下一步的工作：把城中村，贫民窟里的人解救出来。如果你觉得讨论软件用户的自由是有意义的，那么请加入我们，开始做第二步工作。很多人都在做第一步，但这第二步却无人问津。''
 \fi
 
 \ifdefined\eng
@@ -569,11 +653,11 @@ Hands pop up. Stallman points to a member of the golf shirt-wearing contingent. 
 \fi
 
 \ifdefined\eng
-Stallman's recoils as if hit by a poisonous spray. ``Wait a second,'' Stallman says. ``Steal? I'm sorry, there's so much prejudice in that statement that the only thing I can say is that I reject that prejudice.'' Then he turns to the substance of the question. ``Companies that develop nonfree software and other things keep lots and lots of trade secrets, and so that's not really likely to change. In the old days -- even in the 1980s -- for the most part programmers were not aware that there were even software patents and were paying no attention to them. What happened was that people published the interesting ideas, and if they were not in the free software movement, they kept secret the little details. And now they patent those broad ideas and keep secret the little details. So as far as what you're describing, patents really make no difference to it one way or another.''
+Stallman's recoils as if hit by a poisonous spray. ``Wait a second,'' Stallman says. ``Steal? I'm sorry, there's so much prejudice in that statement that the only thing I can say is that I reject that prejudice.\ifdefined\vtwo '' Then he turns to the substance of the question. ``\fi Companies that develop nonfree software and other things keep lots and lots of trade secrets, and so that's not really likely to change. In the old days -- even in the 1980s -- for the most part programmers were not aware that there were even software patents and were paying no attention to them. What happened was that people published the interesting ideas, and if they were not in the free software movement, they kept secret the little details. And now they patent those broad ideas and keep secret the little details. So as far as what you're describing, patents really make no difference to it one way or another.''
 \fi
 
 \ifdefined\chs
-斯托曼立即反应道：``等等，你说`窃取'？不好意思，你的这番陈述里包含太多偏见了。我只能说，我很难认同这些偏见。''接着，斯托曼转向问题本身：``各个公司，它们可能会开发专有软件，或者开发任何别的东西。无论开发什么，多少都会有些商业机密，它们无论如何都会保守这些机密。这个事实恐怕很难改变。在早年间——哪怕到了八十年代——绝大部分程序员都没想到过把软件去申请专利。人们会发表文章记录自己有趣的想法，如果他们不认同自由软件的理念，他们可能会在文章中甚少提及各种细节。如今，他们同样写篇文章，笼统地记录下那些想法，依然保守着各种细节。如今不同的是，他们把这文章拿去专利局，就可以申请下专利。软件专利并没能把这个事实改变多少。''
+斯托曼立即反应道：``等等，你说`窃取'？不好意思，你的这番陈述里包含太多偏见了。我只能说，我很难认同这些偏见。\ifdefined\vtwo ''接着，斯托曼转向问题本身：``\fi 各个公司，它们可能会开发专有软件，或者开发任何别的东西。无论开发什么，多少都会有些商业机密，它们无论如何都会保守这些机密。这个事实恐怕很难改变。在早年间——哪怕到了八十年代——绝大部分程序员都没想到过把软件去申请专利。人们会发表文章记录自己有趣的想法，如果他们不认同自由软件的理念，他们可能会在文章中甚少提及各种细节。如今，他们同样写篇文章，笼统地记录下那些想法，依然保守着各种细节。如今不同的是，他们把这文章拿去专利局，就可以申请下专利。软件专利并没能把这个事实改变多少。''
 \fi
 
 \ifdefined\eng
@@ -585,7 +669,7 @@ Stallman's recoils as if hit by a poisonous spray. ``Wait a second,'' Stallman s
 \fi
 
 \ifdefined\eng
-``But it does,'' Stallman says. ``Their publication is telling you that this is an idea that's off limits to the rest of the community for 20 years. And what the hell good is that? Besides, they've written it in such a hard way to read, both to obfuscate the idea and to make the patent as broad as possible, that it's basically useless looking at the published information [in the patent] to learn anything anyway. The only reason to look at patents is to see the bad news of what you can't do.''
+``But it does,'' Stallman says. ``Their publication is telling you that this is an idea that's off limits to the rest of the community for 20 years. And what the hell good is that? Besides, they've written it in such a hard way to read, both to obfuscate the idea and to make the patent as broad as possible, that it's basically useless looking at the published information\ifdefined\vtwo [in the patent]\fi to learn anything anyway. The only reason to look at patents is to see the bad news of what you can't do.''
 \fi
 
 \ifdefined\chs
