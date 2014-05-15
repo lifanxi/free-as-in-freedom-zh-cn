@@ -7,13 +7,21 @@
 %% no Back-Cover Texts. A copy of the license is included in the
 %% file called ``gfdl.tex''.
 
-\documentclass[UTF8, a4paper, 10pt]{book}
-\usepackage{ctex}
+\documentclass[UTF8, a5paper, 10pt]{book}
+\usepackage{layout}
+\usepackage[adobefonts]{ctex}  
 \usepackage{url}
+\usepackage[T1]{fontenc}
 %% \usepackage[utf8x]{inputenc}
 \usepackage[Lenny]{fncychap}
 \clubpenalty=10000
 \widowpenalty=10000
+\setlength{\marginparwidth}{0pt}
+\setlength{\headsep}{25pt}
+\setlength{\textwidth}{320pt}
+%\setlength{\textheight}{450pt}
+%\setlength{\footskip}{0pt}
+\sloppy
 
 %% PDF setup
 \usepackage{hyperref}
@@ -41,12 +49,13 @@
 
 %% Paper size
 \usepackage{geometry}
-\geometry{papersize={6in,9in}}
+%\geometry{papersize={6in,9in}}
+\geometry{bindingoffset=1cm}
 
 \setcounter{errorcontextlines}{10}
 
 %% Output Language
-\def\eng{eng}
+%%\def\eng{eng}
 \def\chs{chs}
 
 %% Output Version
@@ -54,18 +63,21 @@
 %%\def\vtwo{vtwo}
 
 \begin{document}
+%%\layout
 \title{\ifdefined\eng
 Free as in Freedom: Richard Stallman's Crusade for Free Software
 \fi
 \ifdefined\chs
-Free as in Freedom: 理查德·斯托曼的自由软件运动
+Free as in Freedom: \\ 理查德·斯托曼的自由软件运动
 \fi
 }
 \author{\ifdefined\eng
 Sam Williams
 \fi
 \ifdefined\chs
-萨姆·威廉姆斯
+萨姆·威廉姆斯\ 著\\
+\bigskip
+邓楠\ \ 李凡希\ \ \ 译
 \fi}
 \date{}
 
@@ -74,12 +86,12 @@ Sam Williams
 \frontmatter
 %%\include{copyright}
 \thispagestyle{empty}
+\renewcommand\contentsname{\textbf{目录}} 
 \tableofcontents
 %%\include{rms-preface}
 %%\include{preface-williams}
 \include{trans-preface}
 \include{v1-preface}
-
 \mainmatter
 \include{chap01}
 \include{chap02}
