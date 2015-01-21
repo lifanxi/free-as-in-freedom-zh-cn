@@ -1,10 +1,10 @@
 all: clean
-	htlatex faif-1.0.tex
+	htlatex faif.tex
 	python2.7 process_html.py
-	pdflatex faif-1.0.tex
+	pdflatex faif.tex
 clean:
 	rm -rf *.html
 	rm -rf *.log
 	rm -rf *.aux
-	rm -rf faif-1.0.4ct	faif-1.0.4tc faif-1.0.cjk faif-1.0.css faif-1.0.dvi faif-1.0.ent faif-1.0.idv faif-1.0.idx faif-1.0.lg faif-1.0.out faif-1.0.pdf faif-1.0.tmp faif-1.0.toc faif-1.0.xref faif-1.00x.png faif-1.01x.png faif-1.02x.png faif-1.03x.png faif-1.04x.png faif-1.05x.png
+	rm -rf faif.4ct	faif.4tc faif.cjk faif.css faif.dvi faif.ent faif.idv faif.idx faif.lg faif.out faif.pdf faif.tmp faif.toc faif.xref faif0x.png faif1x.png faif2x.png faif3x.png faif4x.png faif5x.png
 

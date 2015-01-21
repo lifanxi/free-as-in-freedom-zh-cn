@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-soup = BeautifulSoup(open('faif-1.0.html','r'))
+soup = BeautifulSoup(open('faif.html','r'))
 
 for i in soup.find_all('span'):
     if i['class'][0].find('unisong') == 0 or i['class'][0].find('unisong') == 0:
