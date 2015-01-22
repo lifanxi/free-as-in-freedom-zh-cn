@@ -122,7 +122,9 @@ Sam Williams \\ Second edition revisions by Richard M. Stallman
 \fi
 \ifdefined\vone
 \include{v1-preface}
+\ifdefined\chs
 \include{trans-preface}
+\fi
 \fi
 \mainmatter
 \include{chap01}
@@ -145,10 +147,10 @@ Sam Williams \\ Second edition revisions by Richard M. Stallman
 \ifdefined\vtwo
 \include{chap14}
 \fi
-\include{terminology}
 \ifdefined\vone
-\include{hack}
+\include{terminology}
 \fi
+\include{hack}
 \include{gfdl}
 \printindex
 \ifdefined\vtwo
