@@ -1,6 +1,6 @@
 all: clean
-	htlatex faif.tex
-	python2.7 process_html.py
+	htlatex faif.tex "htlatex,xhtml,charset=utf-8,NoFonts,fonts" " -cunihtf -utf8"
+	#python2.7 process_html.py
 	pdflatex faif.tex
 clean:
 	rm -rf *.html
